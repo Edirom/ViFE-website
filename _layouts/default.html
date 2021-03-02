@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1" />
+        <meta name="google-site-verification"
+              content="lAAXkBgILdYSSZnKqZG4hixUau1K5qGU9ZCuUIAN3EA" />
+        <link href="{{ '/assets/css/main.css' | relative_url }}"
+              rel="stylesheet" />
+        <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+        <script src="{{ '/assets/js/bootstrap.js' | relative_url }}"></script>
+        {% include matomo.html %}
+    </head>
+    <body>
+        {% include headerbar.html %}
+        <div class="starter-template">
+            <h1>ViFE – Virtueller Forschungsverbund Edirom</h1>
+        </div>
+        <div class="container">
+            {% include topnav.html %}
+            {{ content }}
+        </div>
+        {% include footer.html %}
+    </body>
+</html>
