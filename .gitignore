@@ -225,4 +225,7 @@ _site/
 vendor/
 
 # Webstorm
-.idea
+.idea/
+
+# Node packages
+node_modules/
