@@ -57,3 +57,19 @@ github_username: Edirom
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+sass:
+  load_paths:
+    - _sass
+    - node_modules/bootstrap/scss
+  style: compressed
+
+copy_to_dest:
+  - source: node_modules/@fortawesome/fontawesome-free/webfonts/.
+    target: assets/webfonts/
+  - source: node_modules/@fortawesome/fontawesome-free/svgs/.
+    target: assets/svgs/
+  - source: node_modules/bootstrap/dist/js/bootstrap.min.js
+    target: assets/js/
+  - source: node_modules/jquery/dist/jquery.min.js
+    target: assets/js/
