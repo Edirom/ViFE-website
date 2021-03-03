@@ -1,0 +1,31 @@
+- name: Martin Albrecht Hohmaier
+  sortkey: Hohmaier
+  email: martin.albrecht.hohmaier@uni-paderborn.de
+  affiliation:
+    - nfdi
+  image: /assets/img/team_martin.jpeg
+- name: Irmlind Capelle
+  sortkey: Capelle
+  email: irmlind.capelle@upb.de
+  affiliation:
+    - hoftheater
+  image: /assets/img/team_irmlind.jpg
+  phone: +49 5231 975–665
+- name: Benjamin Wolff Bohl
+  sortkey: Bohl
+  email: bohl@edirom.de
+  affiliation:
+    - hoftheater
+    - edirom
+  image: /assets/img/team_benjamin.jpg
+  phone: +49 69 798–22192
+- name: Daniel Röwenstrunk
+  sortkey: Röwenstrunk
+  email: roewenstrunk@uni-paderborn.de
+  affiliation:
+    - edirom
+    - freidi
+    - zenmem
+    - nfdi
+  image: /assets/img/team_daniel.jpg
+  phone: +49 5231 975-662

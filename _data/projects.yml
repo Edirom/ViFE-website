@@ -1,0 +1,33 @@
+nfdi:
+  name: NFDI4Culture
+  url: https://nfdi4culture.de/
+  funder: BMBF
+  start: 2020
+edirom:
+  name: Edirom
+  url: https://www.edirom.de
+  start: 2006
+  end: 2012
+  funder: DFG
+  logo: /assets/img/edirom.png
+zenmem:
+  name: ZenMEM
+  url: https://zenmem.de
+  start: 2014
+  end: 2019
+  funder: BMBF
+  logo: /assets/img/zenmem.png
+hoftheater:
+  name: Detmolder Hoftheater
+  url: https://hoftheater-detmold.de
+  funder: DFG
+  start: 2014
+  end: 2020
+  logo: /assets/img/hoftheater_text.png
+freidi:
+  name: Freischütz Digital
+  url: https://freischuetz-digital.de
+  funder: BMBF
+  start: 2012
+  end: 2015
+  logo: /assets/img/freidi.png
