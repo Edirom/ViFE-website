@@ -1,7 +1,9 @@
 $primary: #337ab7;
+$headerBarHeight: 40px;
+$spacer: 1rem !default;
 
 .headerBar {
-    height: 40px;
+    height: $headerBarHeight;
     position: fixed;
     top: 0;
     left: 0;
@@ -14,6 +16,14 @@ $primary: #337ab7;
     padding: 10px 30px;
     white-space: nowrap;
     overflow: hidden;
+}
+
+body > .container {
+    margin-top: (2 * $headerBarHeight);
+}
+
+.row {
+    margin-top: ($spacer * 1.5) !important;
 }
 
 .headerBar a, headerBar a:visited, headerBar a:hover {
