@@ -1,39 +1,14 @@
-<ul class="nav nav-pills vife_icons">
-    <li role="presentation" class="active">
-        <a class="navbar-brand vife_icon" href="#">
-            <span class="fa fa-2x fa-comment" aria-hidden="true"></span>
-            <span class="vife_iconText">Was ist ViFE?</span>
-        </a>
-    </li>
-    <li role="presentation">
-        <a class="navbar-brand vife_icon" href="team.html">
-            <span class="fa fa-2x fa-user" aria-hidden="true"></span>
-            <span class="vife_iconText">Team</span>
-        </a>
-    </li>
-    <li role="presentation"><a class="navbar-brand vife_icon" href="projects.html">
-        <span class="fa fa-2x fa-th" aria-hidden="true"></span>
-        <span class="vife_iconText">Projekte</span>
-    </a>
-    </li>
-    <li role="presentation"><a class="navbar-brand vife_icon" href="publikationen.html">
-        <span class="fa fa-2x fa-book" aria-hidden="true"></span>
-        <span class="vife_iconText">Publikationen</span>
-    </a>
-    </li>
-    <li role="presentation"><a class="navbar-brand vife_icon" href="termine.html">
-        <span class="fa fa-2x fa-calendar" aria-hidden="true"></span>
-        <span class="vife_iconText">Termine</span>
-    </a>
-    </li>
-    <li role="presentation"><a class="navbar-brand vife_icon" href="werkzeuge.html">
-        <span class="fa fa-2x fa-wrench" aria-hidden="true"></span>
-        <span class="vife_iconText">Werkzeuge</span>
-    </a>
-    </li>
-    <!--<li role="presentation"><a class="navbar-brand vife_icon" href="concepts.html">
-            <span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span>
-            <span class="vife_iconText">Konzepte &amp; Workflows</span>
-        </a>
-    </li>-->
-</ul>
+<div class="row">
+    <div class="col">
+        <ul class="nav nav-pills vife_icons">
+            {% for item in site.data.topnav %}
+            <li role="presentation" {% if page.url == item.link %}class="active"{% endif %}>
+                <a class="navbar-brand vife_icon" href="{{ item.link | relative_url }}">
+                    <span class="fa fa-2x fa-{{ item.glyph }}" aria-hidden="true"></span>
+                    <span class="vife_iconText">{{ item.name }}</span>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
