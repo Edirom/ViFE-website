@@ -1,0 +1,19 @@
+- name: Maja Hartwig
+  sortkey: Hartwig
+  image: /assets/img/team_maja.jpg
+  affiliation:
+    - beethovens-werkstatt
+    - dariah
+    - mei
+- name: Joachim Iffland
+  sortkey: Iffland
+  image: /assets/img/team_joachimI.jpg
+  affiliation:
+    - freidi
+    - zenmem
+- name: Anna Maria Neubert
+  sortkey: Neubert
+  affiliation:
+    - freidi
+    - zenmem
+    - wega

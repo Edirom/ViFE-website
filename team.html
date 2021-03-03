@@ -1,498 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Virtueller Forschungsverbund Edirom</title>
+---
+layout: default
+---
 
-        <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet" />
-        <link href="css/main.css" rel="stylesheet" />
+<div class="row row-cols-1 row-cols-md-3">
+    {% assign members = site.data.team | sort: "sortKey" %}
+    {% for member in members %}
+    <div class="col my-3">
+        <div class="card">
+            <img src="{{ member.image | relative_url }}" class="card-img-top p-4" alt="{{ member.name }}" />
+            <div class="card-body">
+                <h3 class="card-title">{{ member.name }}</h3>
+                <p class="card-text">
+                    {% if member.phone %}
+                    <i class="vife_contact_icon fa fa-phone"></i>
+                    <a href="tel:{{ member.phone }}">{{ member.phone }}</a><br />
+                    {% endif %}
+                    {% if member.email %}
+                    <i class="vife_contact_icon fa fa-envelope"></i>
+                    <span>{{ member.email }}</span><br />
+                    {% endif %}
+                    {% if member.affiliation %}
+                    <i class="vife_contact_icon fa fa-globe"></i>
+                    <!-- <a href="https://www.muwi-detmold-paderborn.de/forschung/nfdi4culture" target="_blank">NFDI4Culture</a> -->
+                    {% for affiliation in member.affiliation %}
+                    {% assign entry = site.data.projects[affiliation] %}
+                    <a href="{{ entry.url }}">{{ entry.name }}</a>{% if forloop.last %}{% else %}, {% endif %}
+                    {% endfor %}
+                    {% endif %}
+                </p>
+            </div>
 
-        <!-- fontawesome icons needed for bibbase controls and info button in the header bar -->
-        <link rel="stylesheet"
-            href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
-            type="text/css" media="screen" />
+        </div>
+        <!-- <div class="vife_skills"> </div> -->
+    </div>
+    {% endfor %}
+</div>
 
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-        <!-- Matomo -->
-        <script type="text/javascript">
-            var _paq = _paq || [];
-            /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-            _paq.push(['trackPageView']);
-            _paq.push(['enableLinkTracking']);
-            (function() {
-              var u="//matomo.edirom.de/";
-              _paq.push(['setTrackerUrl', u+'piwik.php']);
-              _paq.push(['setSiteId', '1']);
-              var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-              g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-            })();
-        </script>
-        <!-- End Matomo Code -->
-    </head>
-    <body>
-        <div class="headerBar">
-            <span class="visible-xs visible-sm pull-right"><i class="fa fa-external-link"
-                    style="margin-right:5px;" aria-hidden="true"></i><a
-                    href="https://ess.uni-paderborn.de">Edirom-Summer-School</a></span>
-            <a href="impressum.html" class="visible-xs visible-sm"><i
-                    class="fa fa-lg fa-info-circle" style="padding-top:3px;" aria-hidden="true"
-                ></i></a>
-            <span class="hidden-xs hidden-sm">Musikwissenschaftliches Seminar Detmold/Paderborn –
-                Hornsche Str. 39 – 32756 Detmold – Tel: +49 5231 975667 | <a
-                    href="mailto:info@edirom.de">info@edirom.de</a></span>
+<div class="row">
+    <div class="col">
+        <h2>Ehemalige "ViFEn"</h2>
+    </div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3">
+    {% assign members = site.data.ehemalige | sort: "sortKey" %}
+    {% for member in members %}
+    <div class="col my-3">
+        <div class="card">
+            <img src="{{ member.image | relative_url }}" class="card-img-top p-4" alt="{{ member.name }}" />
+            <div class="card-body">
+                <h3 class="card-title">{{ member.name }}</h3>
+                <p class="card-text">
+                    {% if member.phone %}
+                    <i class="vife_contact_icon fa fa-phone"></i>
+                    <a href="tel:{{ member.phone }}">{{ member.phone }}</a><br />
+                    {% endif %}
+                    {% if member.email %}
+                    <i class="vife_contact_icon fa fa-envelope"></i>
+                    <span>{{ member.email }}</span><br />
+                    {% endif %}
+                    {% if member.affiliation %}
+                    <i class="vife_contact_icon fa fa-globe"></i>
+                    {% for affiliation in member.affiliation %}
+                    {% assign entry = site.data.projects[affiliation] %}
+                    <a href="{{ entry.url }}">{{ entry.name }}</a>{% if forloop.last %}{% else %}, {% endif %}
+                    {% endfor %}
+                    {% endif %}
+                </p>
+            </div>
         </div>
-        <div class="essLink hidden-xs hidden-sm">
-            <a href="https://ess.uni-paderborn.de" target="_blank"><img
-                    src="img/ViFE-ESS-logo-ohne-Jahr.png" width="180" /></a>
-        </div>
-        <div class="container" style="margin-top: 50px;">
-            <div class="starter-template">
-                <h1>ViFE – Virtueller Forschungsverbund Edirom</h1>
-            </div>
-            <ul class="nav nav-pills vife_icons">
-                <li role="presentation">
-                    <a class="navbar-brand vife_icon" href="index.html">
-                        <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
-                        <span class="vife_iconText">Was ist ViFE?</span>
-                    </a>
-                </li>
-                <li role="presentation" class="active">
-                    <a class="navbar-brand vife_icon" href="#">
-                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                        <span class="vife_iconText">Team</span>
-                    </a>
-                </li>
-                <li role="presentation"><a class="navbar-brand vife_icon" href="projects.html">
-                        <span class="glyphicon glyphicon-th" aria-hidden="true"></span>
-                        <span class="vife_iconText">Projekte</span>
-                    </a>
-                </li>
-                <li role="presentation"><a class="navbar-brand vife_icon" href="publikationen.html">
-                        <span class="glyphicon glyphicon-book" aria-hidden="true"></span>
-                        <span class="vife_iconText">Publikationen</span>
-                    </a>
-                </li>
-                <li role="presentation"><a class="navbar-brand vife_icon" href="termine.html">
-                        <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-                        <span class="vife_iconText">Termine</span>
-                    </a>
-                </li>
-                <li role="presentation"><a class="navbar-brand vife_icon" href="werkzeuge.html">
-                        <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
-                        <span class="vife_iconText">Werkzeuge</span>
-                    </a>
-                </li>
-                <!--<li role="presentation"><a class="navbar-brand vife_icon" href="concepts.html">
-                <span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span>
-                <span class="vife_iconText">Konzepte &amp; Workflows</span>
-            </a>
-            </li>-->
-            </ul>
-            <br />
-            <div class="row" style="margin-top: 80px;">
-                <div class="col-md-4">
-                    <div class="vife_teamMember">
-                        <img src="img/team_martin.jpeg" height="220" />
-                    </div>
-                    <h2>Martin Albrecht-Hohmaier</h2>
-                    <p>
-                        <!--<span class="vife_contact_icon glyphicon glyphicon-earphone"></span>--><br />
-                        <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>martin.albrecht.hohmaier@uni-paderborn.de<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-globe"></span>
-                        <a href="https://nfdi4culture.de" target="_blank">NFDI4Culture</a>
-                    </p>
-                    <div class="vife_skills"> </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="vife_teamMember">
-                        <img src="img/team_hizkiel.jpg" height="220" />
-                    </div>
-                    <h2>Hizkiel Mitiku Alemayehu</h2>
-                    <p>
-                        <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5251 606743<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>hizkiel.alemayehu@uni-paderborn.de<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-globe"></span>
-                        <a href="https://nfdi4culture.de" target="_blank">NFDI4Culture</a>
-                    </p>
-                    <div class="vife_skills"> </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="vife_teamMember">
-                        <img src="img/team_niko.jpg" height="220" />
-                    </div>
-                    <h2>Nikolaos Beer</h2>
-                    <p>
-                        <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 721 - 854 501 (<a href="http://www.max-reger-institut.de">MRI</a>, Karlsruhe)<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>nikolaos.beer@uni-paderborn.de<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-globe"></span>
-                        <a href="https://www.reger-werkausgabe.de" target="_blank">Reger-Werkausgabe</a>,
-                        <a href="http://www.opera.adwmainz.de/informationen.html" target="_blank">OPERA</a> (2012–2019),
-                        <a href="https://de.dariah.eu" target="_blank">DARIAH-DE</a> (2012–2016)
-                    </p>
-                    <div class="vife_skills"> </div>
-                </div>
-                
-            </div>
-            <div class="row" style="margin-top: 80px;">
-                <div class="col-md-4">
-                    <div class="vife_teamMember">
-                        <img src="img/team_katharina.jpg" height="220" />
-                    </div>
-                    <h2>Katharina Bergmann</h2>
-                    <p>
-                        <!--<span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49  --><br />
-                        <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>katharina.bergmann@uni-paderborn.de<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-globe"></span>
-                        <a href="https://nfdi4culture.de" target="_blank">NFDI4Culture</a>
-                    </p>
-                    <div class="vife_skills"> </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="vife_teamMember">
-                        <img src="img/team_benjamin.jpg" height="220" />
-                    </div>
-                    <h2>Benjamin Wolff Bohl</h2>
-                    <p>
-                        <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 69 798-22192<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>bohl@edirom.de<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a
-                            href="https://hoftheater-detmold.de" target="_blank">Detmolder
-                            Hoftheater</a>, <a href="https://edirom.de/edirom-projekt/" target="_blank">Edirom</a>, <a
-                                href="https://www.freischuetz-digital.de/index.html" target="_blank"
-                                >FreiDi</a>, <a href="https://zenmem.de" target="_blank">ZenMEM</a>,
-                        <a
-                            href="http://www.adwmainz.de/projekte/bernd-alois-zimmermann-gesamtausgabe-historisch-kritische-ausgabe-seiner-werke-schriften-und-briefe/information.html"
-                            target="_blank">Zimmermann-GA</a>
-                    </p>
-                    <div class="vife_skills"> </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="vife_teamMember">
-                        <img src="img/team_irmlind.jpg" height="220" />
-                    </div>
-                    <h2>Irmlind Capelle</h2>
-                    <p>
-                        <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231 975-665<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>irmlind.capelle@upb.de<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a
-                            href="https://hoftheater-detmold.de" target="_blank">Detmolder
-                            Hoftheater</a>
-                    </p>
-                    <div class="vife_skills"> </div>
-                </div>
-            </div>
-            <div class="row" style="margin-top: 80px;">
-                <div class="col-md-4">
-                    <div class="vife_teamMember">
-                        <img src="img/team_anne.jpg" height="220" />
-                    </div>
-                    <h2>Anne Ferger</h2>
-                    <p>
-                        <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>anne.ferger@upb.de<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a
-                            href="https://nfdi4culture.de" target="_blank">NFDI4Culture</a>
-                    </p>
-                    <div class="vife_skills"> </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="vife_teamMember">
-                        <img src="img/team_vera.png" height="220" />
-                    </div>
-                    <h2>Vera Grund</h2>
-                    <p>
-                        <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231 975-671<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>vgrund@mail.uni-paderborn.de<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a
-                            href="http://www.muwi-detmold-paderborn.de/fileadmin/muwi/PDFs/Projektskizze_Grund.pdf"
-                            target="_blank">Wiener Ballettrepertoire</a>
-                    </p>
-                    <div class="vife_skills"> </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="vife_teamMember">
-                        <img src="img/team_kristin.jpg" height="220" />
-                    </div>
-                    <h2>Kristin Herold</h2>
-                    <p>
-                        <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231 975-669<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>kristin.herold@uni-paderborn.de<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-globe"></span>
-                        <a href="https://beethovens-werkstatt.de" target="_blank">Beethovens Werkstatt</a> (seit 2018), 
-                        <a href="https://baz-ga.de" target="_blank">BAZ-GA</a> (2016–2018), 
-                        <a href="https://de.dariah.eu" target="_blank">DARIAH-DE</a> (2011–2016)
-                        
-                    </p>
-                    <div class="vife_skills"> </div>
-                </div>
-            </div>
-            <div class="row" style="margin-top: 80px;">
-                <div class="col-md-4">
-                    <div class="vife_teamMember">
-                        <img src="img/team_danielj.png" height="220" />
-                    </div>
-                    <h2>Daniel Jettka</h2>
-                    <p>
-                        <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>daniel.jettka@uni-paderborn.de<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-globe"></span>
-                        <a href="https://nfdi4culture.de" target="_blank">NFDI4Culture</a>
-                    </p>
-                    <div class="vife_skills"></div>
-                </div>
-                <div class="col-md-4">
-                    <div class="vife_teamMember">
-                        <img src="img/team_johannes.jpg" height="220" />
-                    </div>
-                    <h2>Johannes Kepper</h2>
-                    <p>
-                        <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231 975-669<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>kepper@edirom.de<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a
-                            href="https://beethovens-werkstatt.de" target="_blank">Beethovens
-                            Werkstatt</a>, <a href="https://edirom.de/edirom-projekt/" target="_blank">Edirom</a>, <a
-                                href="https://freischuetz-digital.de" target="_blank"
-                                >FreiDi</a>
-                    </p>
-                    <div class="vife_skills"></div>
-                </div>
-                <div class="col-md-4">
-                    <div class="vife_teamMember">
-                        <img src="img/team_elenaM.jpg" height="220" />
-                    </div>
-                    <h2>Elena Minetti</h2>
-                    <p>
-                        <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231 975-854<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>elena.minetti@uni-paderborn.de<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a href="https://www.muwi-detmold-paderborn.de/forschung/1-2" target="_blank">Henze Digital</a>
-                    </p>
-                    <div class="vife_skills"> </div>
-                </div>
-                
-                
-                
-            </div>
-            <div class="row" style="margin-top: 80px;">
-                <div class="col-md-4">
-                    <div class="vife_teamMember">
-                        <img src="img/team_ran.jpg" height="220" />
-                    </div>
-                    <h2>Ran Mo</h2>
-                    <p>
-                        <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231 975-669<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>mo@beethovens-werkstatt.de<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a href="https://beethovens-werkstatt.de" target="_blank">Beethovens Werkstatt</a>
-                    </p>
-                    <div class="vife_skills"> </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="vife_teamMember">
-                        <img src="img/team_andreas.png" height="220" />
-                    </div>
-                    <h2>Andreas Münzmay</h2>
-                    <p>
-                        <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231 975-672<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>andreas.muenzmay@upb.de<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a
-                            href="https://beethovens-werkstatt.de" target="_blank">Beethovens
-                            Werkstatt</a>, <a href="https://zenmem.de" target="_blank">ZenMEM</a>, 
-                        <a href="https://nfdi4culture.de" target="_blank">NFDI4Culture</a>
-                    </p>
-                    <div class="vife_skills"></div>
-                </div>
-                <div class="col-md-4">
-                    <div class="vife_teamMember">
-                        <img src="img/team_salome.jpg" height="220" />
-                    </div>
-                    <h2>Salome Obert</h2>
-                    <p>
-                        <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231 975-663<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>obert@weber-gesamtausgabe.de.<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-globe"></span>
-                        <a href="https://weber-gesamtausgabe.de/de/Index" target="_blank">Weber-Gesamtausgabe</a>
-                    </p>
-                    <div class="vife_skills"></div>
-                </div>
-            </div>
-            <div class="row" style="margin-top: 80px;">
-                <div class="col-md-4">
-                    <div class="vife_teamMember">
-                        <img src="img/team_kristina.jpg" height="220" />
-                    </div>
-                    <h2>Kristina Richts-Matthaei</h2>
-                    <p>
-                        <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231 975-665<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>kristina.richts@uni-paderborn.de<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a
-                            href="https://nfdi4culture.de" target="_blank">NFDI4Culture</a>, <a
-                                href="https://hoftheater-detmold.de" target="_blank">Detmolder
-                                Hoftheater</a>, <a href="http://music-encoding.org" target="_blank"
-                                    >MEI</a>
-                    </p>
-                    <div class="vife_skills"></div>
-                </div>
-                <div class="col-md-4">
-                    <div class="vife_teamMember">
-                        <img src="img/team_dennis.jpg" height="220" />
-                    </div>
-                    <h2>Dennis Ried</h2>
-                    <p>
-                        <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231 975-854<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>dennis.ried@uni-paderborn.de<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a href="https://www.muwi-detmold-paderborn.de/forschung/1-2" target="_blank">Henze Digital</a>
-                    </p>
-                    <div class="vife_skills"></div>
-                </div>
-                <div class="col-md-4">
-                    <div class="vife_teamMember">
-                        <img src="img/team_daniel.jpg" height="220" />
-                    </div>
-                    <h2>Daniel Röwenstrunk</h2>
-                    <p>
-                        <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231 975-662<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>roewenstrunk@uni-paderborn.de<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a href="https://edirom.de/edirom-projekt/" target="_blank">Edirom</a>, <a
-                            href="https://freischuetz-digital.de/index.html" target="_blank"
-                            >FreiDi</a>, <a href="https://zenmem.de" target="_blank">ZenMEM</a>, <a href="https://nfdi4culture.de" target="_blank">NFDI4Culture</a>
-                    </p>
-                    <div class="vife_skills"></div>
-                </div>
-            </div>
-            <div class="row" style="margin-top: 80px;">
-                
-                <div class="col-md-4">
-                    <div class="vife_teamMember">
-                        <img src="img/team_mark.jpg" height="220" />
-                    </div>
-                    <h2>Mark Saccomano</h2>
-                    <p>
-                        <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231 975-669<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>mark.saccomano@uni-paderborn.de<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a href="https://www.uni-paderborn.de/forschung/forschungsnachrichten/nachricht/beethoven-in-the-house" target="_blank">Beethoven in the house</a>
-                    </p>
-                    <div class="vife_skills"> </div>
-                </div>
-                
-                <div class="col-md-4">
-                    <div class="vife_teamMember">
-                        <img src="img/team_agnes.jpg" height="220" />
-                    </div>
-                    <h2>Agnes Seipelt</h2>
-                    <p>
-                        <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231 975-669<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>aseipelt@mail.uni-paderborn.de<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a
-                            href="https://www.oeaw.ac.at/acdh/musikwissenschaft/forschung/projektarchiv/digitale-musikanalyse-mit-mei"
-                            target="_blank">Digitale Musikanalyse mit MEI</a>, <a
-                                href="https://beethovens-werkstatt.de" target="_blank">Beethovens
-                                Werkstatt</a>
-                    </p>
-                    <div class="vife_skills"></div>
-                </div>
-                
-                <div class="col-md-4">
-                    <div class="vife_teamMember">
-                        <img src="img/team_peter.jpg" height="220" />
-                    </div>
-                    <h2>Peter Stadler</h2>
-                    <p>
-                        <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231 975-676<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>stadler@weber-gesamtausgabe.de<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a
-                            href="https://weber-gesamtausgabe.de/de/Index" target="_blank"
-                            >Weber-Gesamtausgabe</a>
-                    </p>
-                    <div class="vife_skills"></div>
-                </div>
-            </div>
-            <div class="row" style="margin-top: 80px;">
-                <div class="col-md-4">
-                    <div class="vife_teamMember">
-                        <img src="img/team_joachimV.jpg" height="220" />
-                    </div>
-                    <h2>Joachim Veit</h2>
-                    <p>
-                        <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231 975-663<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>veit@weber-gesamtausgabe.de<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a href="https://beethovens-werkstatt.de" target="_blank">Beethovens Werkstatt</a>, <a
-                            href="https://weber-gesamtausgabe.de/de/Index" target="_blank"
-                            >Weber-Gesamtausgabe</a>, <a href="https://zenmem.de" target="_blank">ZenMEM</a>
-                    </p>
-                    <div class="vife_skills"></div>
-                </div>
-                <div class="col-md-4">
-                    <div class="vife_teamMember">
-                        <img src="img/team_janpeter.jpeg" height="220" />
-                    </div>
-                    <h2>Jan-Peter Voigt</h2>
-                    <p>
-                        <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>jpv@beethovens-werkstatt.de<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a
-                            href="https://beethovens-werkstatt.de" target="_blank">Beethovens
-                            Werkstatt</a>
-                    </p>
-                    <div class="vife_skills"></div>
-                </div>
-                <div class="col-md-4">
-                    <div class="vife_teamMember">
-                        <img src="img/team_anastasia.JPG" height="220" />
-                    </div>
-                    <h2>Anastasia Wawilow</h2>
-                    <p>
-                        <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231 975-665<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>anastasia.wawilow@upb.de<br />
-                        <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a href="https://zenmem.de" target="_blank">ZenMEM</a>
-                    </p>
-                    <div class="vife_skills"></div>
-                </div>
-            </div>
-            
-        
-        <!-- Ehemalige Mitarbeiter*innen -->
-            <div class="row" style="margin-top: 80px;">
-                <div class="col-md-12">
-                    
-                    <h1>Ehemalige "ViFEn"</h1>
-                    <div>
-                        <h3>Maja Hartwig</h3>
-                        <p><a href="https://beethovens-werkstatt.de" target="_blank">Beethovens
-                            Werkstatt</a>, <a href="https://de.dariah.eu" target="_blank">DARIAH-DE</a>, <a href="http://music-encoding.org" target="_blank">MEI</a></p>
-                        <h3>Joachim Iffland</h3> 
-                        <p><a href="https://www.freischuetz-digital.de/index.html" target="_blank">FreiDi</a>, <a href="https://zenmem.de" target="_blank">ZenMEM</a></p>
-                        <h3>Anna Maria Neubert</h3> 
-                        <p><a href="https://weber-gesamtausgabe.de/de/Index" target="_blank">Weber-Gesamtausgabe</a>, 
-                        <a href="https://www.freischuetz-digital.de/index.html" target="_blank">FreiDi</a>, <a href="https://zenmem.de" target="_blank">ZenMEM</a></p>
-                        <h3>Elena Schilke</h3>
-                        <p><a href="https://hoftheater-detmold.de" target="_blank">Detmolder Hoftheater</a>,
-                        <a href="https://freischuetz-digital.de" target="_blank">FreiDi</a></p>
-                    </div>
-                    <div class="vife_skills"></div>
-                </div>
-            </div>
-            
-        
-        </div>
-        <!-- /.container -->
-        <br />
-        <nav class="navbar navbar-inverse bottomNav">
-            <div class="container">
-                <div id="navbar" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="impressum.html">Kontakt | Impressum</a></li>
-                    </ul>
-                </div><!--/.nav-collapse -->
-            </div>
-        </nav>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
-    </body>
-</html>
+    </div>
+    {% endfor %}
+</div>
