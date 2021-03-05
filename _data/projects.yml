@@ -31,3 +31,42 @@ freidi:
   start: 2012
   end: 2015
   logo: /assets/img/freidi.png
+bith:
+  name: Beethoven in the house
+  url: https://www.uni-paderborn.de/forschung/forschungsnachrichten/nachricht/beethoven-in-the-house
+  start: 2020
+bw:
+  name: Beethovens Werkstatt
+  url: https://beethovens-werkstatt.de/
+  start: 2014
+  end: 2029
+  logo: /assets/img/beethoven.png
+  funder: AdW Mainz
+mei:
+  name: Digital Music Notation Data Model and Prototype Delivery System
+  url: http://music-encoding.org/
+  start: 2010
+  end: 2014
+  logo: /assets/img/meiLogo.png
+  funder: DFG/NEH
+wega:
+  name: Carl-Maria-von-Weber-Gesamtausgabe
+  url: http://www.weber-gesamtausgabe.de/
+  start: 1993
+  end: 2026
+  logo: /assets/img/wega.png
+  funder: AdW Mainz
+textgrid:
+  name: TextGrid
+  url: https://textgrid.de/
+  start: 2009
+  end: 2012
+  logo: /assets/img/textgrid.png
+  funder: BMBF
+dariah:
+  name: DARIAH-DE
+  url: https://de.dariah.eu/
+  start: 2011
+  end: 2016
+  logo: /assets/img/dariah-logo.png
+  funder: BMBF
