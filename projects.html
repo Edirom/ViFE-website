@@ -4,7 +4,7 @@ title: Projekte
 ---
 
 <div class="row row-cols-1 row-cols-md-3">
-    {% assign projects = site.data.projects %}
+    {% assign projects = site.data.projects | sort %}
     {% for proj in projects %}
     {% assign project = proj[1] %}
         <div class="col my-3">
