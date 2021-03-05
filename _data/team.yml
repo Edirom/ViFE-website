@@ -1,5 +1,5 @@
 - name: Martin Albrecht Hohmaier
-  sortkey: Hohmaier
+  sortkey: Albrecht
   email: martin.albrecht.hohmaier@uni-paderborn.de
   affiliation:
     - nfdi
@@ -29,3 +29,114 @@
     - nfdi
   image: /assets/img/team_daniel.jpg
   phone: +49 5231 975-662
+- name: Katharina Bergmann
+  sortkey: Bergmann
+  email: katharina.bergmann@uni-paderborn.de
+  affiliation:
+    - nfdi
+  image: /assets/img/team_katharina.jpg
+- name: Johannes Kepper
+  sortkey: Kepper
+  email: kepper@edirom.de
+  affiliation:
+    - edirom
+    - bw
+    - freidi
+  image: /assets/img/team_johannes.jpg
+  phone: +49 5231 975-662
+- name: Nikolaos Beer
+  sortkey: Beer
+  email: nikolaos.beer@uni-paderborn.de
+  affiliation:
+    - rwa
+    - opera
+    - dariah
+  image: /assets/img/team_niko.jpg
+  phone: +49 721 854–501
+- name: Vera Grund
+  sortkey: Grund
+  email: vgrund@mail.uni-paderborn.de
+  affiliation:
+    - ballet
+  image: /assets/img/team_vera.png
+  phone: +49 5231 975-671
+- name: Kristin Herold
+  sortkey: Herold
+  email: kristin.herold@uni-paderborn.de
+  affiliation:
+    - bw
+    - bazga
+    - dariah
+  image: /assets/img/team_kristin.jpg
+  phone: +49 5231 975-669
+- name: Joachim Veit
+  sortkey: Veit
+  email: veit@weber-gesamtausgabe.de
+  affiliation:
+    - wega
+    - zenmem
+    - bw
+  image: /assets/img/team_joachimV.jpg
+  phone: +49 5231 975–663
+- name: Peter Stadler
+  sortkey: Stadler
+  email: stadler@edirom.de
+  affiliation:
+    - wega
+    - edirom
+  image: /assets/img/team_peter.jpg
+  phone: +49 5231 975–676
+- name: Ran Mo
+  sortkey: Mo
+  email: mo@beethovens-werkstatt.de
+  affiliation:
+    - bw
+  image: /assets/img/team_ran.jpg
+  phone: +49 5231 975–669
+- name: Kristina Richts-Matthaei
+  sortkey: Richts
+  email: kristina.richts@uni-paderborn.de
+  affiliation:
+    - hoftheater
+    - nfdi
+    - mei
+  image: /assets/img/team_kristina.jpg
+  phone: +49 5231 975–665
+- name: Andreas Münzmay
+  sortkey: Münzmay
+  email: andreas.muenzmay@upb.de
+  affiliation:
+    - zenmem
+    - bw
+  image: /assets/img/team_andreas.png
+  phone: +49 5231 975–672
+- name: Anastasia Wawilow
+  sortkey: Wawiliow
+  email: anastasia.wawilow@upb.de
+  affiliation:
+    - zenmem
+  image: /assets/img/team_anastasia.JPG
+  phone: +49 5231 975–665
+- name: Mark Saccomano
+  sortkey: Saccomano
+  email: mark.saccomano@uni-paderborn.de
+  affiliation:
+    - bith
+  image: /assets/img/team_mark.jpg
+  phone: +49 5231 975–669
+- name: Agnes Seipelt
+  sortkey: Seipelt
+  email: aseipelt@mail.uni-paderborn.de
+  affiliation:
+    - bw
+    - bruckner
+  image: /assets/img/team_agnes.jpg
+  phone: +49 5231 975–669
+- name: Elena Schilke
+  sortkey: Schilke
+  email: eschilke@mail.uni-paderborn.de
+  affiliation:
+    - hoftheater
+    - freidi
+  image: /assets/img/team_elena.jpg
+  phone: +49 5231 975–665
