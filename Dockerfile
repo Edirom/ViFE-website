@@ -1,13 +1,22 @@
 FROM jekyll/jekyll:builder as builder
 
-WORKDIR /var/jekyllbuilder
-COPY . .
+ENV WORK_DIR=/var/jekyllbuilder
 
-# CAVEAT: need to create the directories first
-# for Jekyll to build properly
+# since WORKDIR will not honour the USER directive
+# we need to create the directory and set permissions in advance
+RUN mkdir -p ${WORK_DIR} && \
+    chown -R jekyll:jekyll ${WORK_DIR}
+
+# set default jekyll user for building
+USER jekyll:jekyll
+WORKDIR ${WORK_DIR}
+COPY --chown=jekyll . .
+
+# build local
 RUN npm i && \
-    mkdir .jekyll-cache _site && \
-    jekyll build
+    bundle config set --local path 'vendor/bundle' && \
+    bundle install && \
+    bundle exec jekyll build
 
 #################
 # nginx
