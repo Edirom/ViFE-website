@@ -5,7 +5,7 @@ nfdi:
   start: 2020
 edirom:
   name: Edirom
-  url: https://www.edirom.de
+  url: https://edirom.de/edirom-projekt/
   start: 2006
   end: 2012
   funder: DFG
@@ -44,14 +44,14 @@ bw:
   funder: AdW Mainz
 mei:
   name: Digital Music Notation Data Model and Prototype Delivery System
-  url: http://music-encoding.org/
+  url: https://music-encoding.org/
   start: 2010
   end: 2014
   logo: /assets/img/meiLogo.png
   funder: DFG/NEH
 wega:
   name: Carl-Maria-von-Weber-Gesamtausgabe
-  url: http://www.weber-gesamtausgabe.de/
+  url: https://weber-gesamtausgabe.de/
   start: 1993
   end: 2026
   logo: /assets/img/wega.png
@@ -70,3 +70,15 @@ dariah:
   end: 2016
   logo: /assets/img/dariah-logo.png
   funder: BMBF
+henze:
+  name: Henze Digital - Hans Werner Henzes künstlerisches Netzwerk
+  url: https://www.muwi-detmold-paderborn.de/forschung/1-2
+  start: 2021
+  end: 2024
+  funder: DFG
+dfg-viewer:
+  name: DFG-Viewer für musikalische Quellen
+  url: https://www.muwi-detmold-paderborn.de/forschung/dfg-viewer-fuer-musikalische-quellen
+  start: 2021
+  end: 2022
+  funder: DFG
