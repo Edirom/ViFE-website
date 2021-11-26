@@ -81,4 +81,11 @@ dfg-viewer:
   url: https://www.muwi-detmold-paderborn.de/forschung/dfg-viewer-fuer-musikalische-quellen
   start: 2021
   end: 2022
+  logo: /assets/img/dfg-viewer.jpg
   funder: DFG
+bruckner:
+  name: Digitale Musikanalyse mit MEI
+  url: https://www.oeaw.ac.at/acdh/musikwissenschaft/forschung/projektarchiv/digitale-musikanalyse-mit-mei/
+  start: 2017
+  end: 2019
+  funder: ÖAW
