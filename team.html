@@ -7,7 +7,7 @@ title: Team
     {% assign members = site.data.team | sort: "sortkey" %}
     {% for member in members %}
     <div class="col my-3">
-        <div class="card">
+        <div class="card vife_teamMember">
             <img src="{{ member.image | relative_url }}" class="card-img-top p-4" alt="{{ member.name }}" />
             <div class="card-body">
                 <h3 class="card-title">{{ member.name }}</h3>
@@ -47,7 +47,7 @@ title: Team
     {% assign members = site.data.ehemalige | sort: "sortKey" %}
     {% for member in members %}
     <div class="col my-3">
-        <div class="card">
+        <div class="card vife_alumni">
             <img src="{{ member.image | relative_url }}" class="card-img-top p-4" alt="{{ member.name }}" />
             <div class="card-body">
                 <h3 class="card-title">{{ member.name }}</h3>
