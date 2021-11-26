@@ -132,11 +132,45 @@
     - bruckner
   image: /assets/img/team_agnes.jpg
   phone: +49 5231 975–669
-- name: Elena Schilke
-  sortkey: Schilke
-  email: eschilke@mail.uni-paderborn.de
+- name: Anne Ferger
+  sortkey: Ferger
+  email: anne.ferger@uni-paderborn.de
   affiliation:
-    - hoftheater
-    - freidi
-  image: /assets/img/team_elena.jpg
-  phone: +49 5231 975–665
+    - nfdi
+  image: /assets/img/team_anne.jpg
+- name: Daniel Jettka
+  sortkey: Jettka
+  email: daniel.jettka@uni-paderborn.de
+  affiliation:
+    - nfdi
+  image: /assets/img/team_danielj.png
+- name: Salome Obert
+  sortkey: Obert
+  email: salome.obert@uni-paderborn.de
+  affiliation:
+    - wega
+  image: /assets/img/team_salome.jpg
+- name: Hizkiel Mitiku Alemayehu
+  sortkey: Alemayehu
+  email: hizkiel.alemayehu@uni-paderborn.de
+  affiliation:
+    - nfdi
+  image: /assets/img/team_hizkiel.jpg
+- name: Elena Minetti
+  sortkey: Minetti
+  email: elena.minetti@uni-paderborn.de
+  affiliation:
+    - henze
+  image: /assets/img/team_elenaM.jpg
+- name: Dennis Ried
+  sortkey: Ried
+  email: dennis.ried@uni-paderborn.de
+  affiliation:
+    - henze
+  image: /assets/img/team_dennis.jpg
+- name: Jan-Peter Voigt
+  sortkey: Voigt
+  email: jpv@beethovens-werkstatt.de
+  affiliation:
+    - bw
+  image: /assets/img/team_janpeter.jpeg
