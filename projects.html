@@ -7,6 +7,7 @@ title: Projekte
     {% assign projects = site.data.projects | sort %}
     {% for proj in projects %}
     {% assign project = proj[1] %}
+    {% unless project.external %}
         <div class="col my-3">
             <div class="card vife_project">
                 <div class="card-body">
@@ -20,5 +21,29 @@ title: Projekte
                 <img src="{{ project.logo | relative_url }}" class="card-img-bottom p-4" alt="{{ project.name }}" />
             </div>
         </div>
+    {% endunless %}
+    {% endfor %}
+</div>
+
+<h2>Kooperationsprojekte</h2>
+<div class="row row-cols-1 row-cols-md-3">
+    {% assign projects = site.data.projects | sort %}
+    {% for proj in projects %}
+    {% assign project = proj[1] %}
+    {% if project.external %}
+    <div class="col my-3">
+        <div class="card vife_project">
+            <div class="card-body">
+                <h3 class="card-title">{{ project.name }}</h3>
+                <p class="card-text">
+                    Laufzeit: {{ project.start }}–{{ project.end }} </br>
+                    Förderer: {{ project.funder }} </br>
+                </p>
+                <p class="card-text"><a href="{{ project.url }}">{{ project.url }}</a></p>
+            </div>
+            <img src="{{ project.logo | relative_url }}" class="card-img-bottom p-4" alt="{{ project.name }}" />
+        </div>
+    </div>
+    {% endif %}
     {% endfor %}
 </div>

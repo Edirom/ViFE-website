@@ -89,3 +89,24 @@ bruckner:
   start: 2017
   end: 2019
   funder: ÖAW
+rwa:
+  name: Reger Werkausgabe
+  url: https://www.reger-werkausgabe.de/
+  funder: AdW Mainz
+  start: 2008
+  end: 2026
+  external: true
+opera:
+  name: OPERA – Spektrum des europäischen Musiktheaters
+  url: https://www.opera.adwmainz.de/informationen.html
+  funder: AdW Mainz
+  start: 2009
+  end: 2024
+  external: true
+bazga:
+  name: Bernd Alois Zimmermann-Gesamtausgabe
+  url: https://zimmermann-gesamtausgabe.de/index.html
+  funder: AdW Mainz
+  start: 2016
+  end: 2041
+  external: true
