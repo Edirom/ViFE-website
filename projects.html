@@ -18,7 +18,9 @@ title: Projekte
                     </p>
                     <p class="card-text"><a href="{{ project.url }}">{{ project.url }}</a></p>
                 </div>
+                {% if project.logo %}
                 <img src="{{ project.logo | relative_url }}" class="card-img-bottom p-4" alt="{{ project.name }}" />
+                {% endif %}
             </div>
         </div>
     {% endunless %}
@@ -41,7 +43,9 @@ title: Projekte
                 </p>
                 <p class="card-text"><a href="{{ project.url }}">{{ project.url }}</a></p>
             </div>
+            {% if project.logo %}
             <img src="{{ project.logo | relative_url }}" class="card-img-bottom p-4" alt="{{ project.name }}" />
+            {% endif %}
         </div>
     </div>
     {% endif %}
