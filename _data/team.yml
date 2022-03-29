@@ -19,6 +19,9 @@
   affiliation:
     - hoftheater
     - edirom
+    - freidi
+    - zenmem
+    - bazga
   image: /assets/img/team_benjamin.jpg
   phone: +49 69 798–22192
 - name: Daniel Röwenstrunk
@@ -66,9 +69,9 @@
   sortkey: Herold
   email: kristin.herold@uni-paderborn.de
   affiliation:
+    - dariah
     - bw
     - bazga
-    - dariah
   image: /assets/img/team_kristin.jpg
   phone: +49 5231 975-669
 - name: Joachim Veit
@@ -84,14 +87,15 @@
   sortkey: Stadler
   email: stadler@edirom.de
   affiliation:
-    - wega
     - edirom
+    - wega
   image: /assets/img/team_peter.jpg
   phone: +49 5231 975–676
 - name: Ran Mo
   sortkey: Mo
   email: mo@beethovens-werkstatt.de
   affiliation:
+    - wega
     - bw
   image: /assets/img/team_ran.jpg
   phone: +49 5231 975–669
@@ -99,9 +103,9 @@
   sortkey: Richts
   email: kristina.richts@uni-paderborn.de
   affiliation:
+    - mei
     - hoftheater
     - nfdi
-    - mei
   image: /assets/img/team_kristina.jpg
   phone: +49 5231 975–665
 - name: Andreas Münzmay

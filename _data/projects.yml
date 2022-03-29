@@ -3,6 +3,7 @@ nfdi:
   url: https://nfdi4culture.de/
   funder: BMBF
   start: 2020
+  logo: https://nfdi4culture.de/typo3conf/ext/culture_portal/Resources/Public/Build/images/n4c-logo-black.4b9cb10d.svg
 edirom:
   name: Edirom
   url: https://edirom.de/edirom-projekt/
