@@ -1,6 +1,6 @@
 nfdi:
   name: NFDI4Culture
-  url: https://nfdi4culture.de/
+  url: https://nfdi4culture.de
   funder: BMBF
   start: 2020
   logo: https://nfdi4culture.de/typo3conf/ext/culture_portal/Resources/Public/Build/images/n4c-logo-black.4b9cb10d.svg
@@ -38,35 +38,35 @@ bith:
   start: 2020
 bw:
   name: Beethovens Werkstatt
-  url: https://beethovens-werkstatt.de/
+  url: https://beethovens-werkstatt.de
   start: 2014
   end: 2029
   logo: /assets/img/beethoven.png
   funder: AdW Mainz
 mei:
   name: Digital Music Notation Data Model and Prototype Delivery System
-  url: https://music-encoding.org/
+  url: https://music-encoding.org
   start: 2010
   end: 2014
   logo: /assets/img/meiLogo.png
   funder: DFG/NEH
 wega:
   name: Carl-Maria-von-Weber-Gesamtausgabe
-  url: https://weber-gesamtausgabe.de/
+  url: https://weber-gesamtausgabe.de
   start: 1993
   end: 2026
   logo: /assets/img/wega.png
   funder: AdW Mainz
 textgrid:
   name: TextGrid
-  url: https://textgrid.de/
+  url: https://textgrid.de
   start: 2009
   end: 2012
   logo: /assets/img/textgrid.png
   funder: BMBF
 dariah:
   name: DARIAH-DE
-  url: https://de.dariah.eu/
+  url: https://de.dariah.eu
   start: 2011
   end: 2016
   logo: /assets/img/dariah-logo.png
@@ -92,7 +92,7 @@ bruckner:
   funder: ÖAW
 rwa:
   name: Reger Werkausgabe
-  url: https://www.reger-werkausgabe.de/
+  url: https://www.reger-werkausgabe.de
   funder: AdW Mainz
   start: 2008
   end: 2026
@@ -106,7 +106,7 @@ opera:
   external: true
 bazga:
   name: Bernd Alois Zimmermann-Gesamtausgabe
-  url: https://zimmermann-gesamtausgabe.de/index.html
+  url: https://zimmermann-gesamtausgabe.de
   funder: AdW Mainz
   start: 2016
   end: 2041
