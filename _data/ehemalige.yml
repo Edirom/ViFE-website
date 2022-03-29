@@ -23,3 +23,7 @@
     - hoftheater
     - freidi
   image: /assets/img/team_elena.jpg
+- name: Julian Dabbert
+  sortkey: Dabbert
+  affiliation:
+    - textgrid
