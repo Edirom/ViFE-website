@@ -27,7 +27,12 @@ title: Projekte
     {% endfor %}
 </div>
 
-<h2>Kooperationsprojekte</h2>
+<div class="row mt-5">
+    <div class="col">
+        <h2>Kooperationsprojekte</h2>
+    </div>
+</div>
+
 <div class="row row-cols-1 row-cols-md-3">
     {% assign projects = site.data.projects | sort %}
     {% for proj in projects %}
