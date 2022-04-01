@@ -1,0 +1,29 @@
+- name: Maja Hartwig
+  sortkey: Hartwig
+  image: /assets/img/team_maja.jpg
+  affiliation:
+    - bw
+    - dariah
+    - mei
+- name: Joachim Iffland
+  sortkey: Iffland
+  image: /assets/img/team_joachimI.jpg
+  affiliation:
+    - freidi
+    - zenmem
+- name: Anna Maria Neubert
+  sortkey: Neubert
+  affiliation:
+    - freidi
+    - zenmem
+    - wega
+- name: Elena Schilke
+  sortkey: Schilke
+  affiliation:
+    - hoftheater
+    - freidi
+  image: /assets/img/team_elena.jpg
+- name: Julian Dabbert
+  sortkey: Dabbert
+  affiliation:
+    - textgrid

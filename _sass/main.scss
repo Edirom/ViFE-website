@@ -1,5 +1,9 @@
+$primary: #337ab7;
+$headerBarHeight: 40px;
+$spacer: 1rem !default;
+
 .headerBar {
-    height: 40px;
+    height: $headerBarHeight;
     position: fixed;
     top: 0;
     left: 0;
@@ -12,6 +16,14 @@
     padding: 10px 30px;
     white-space: nowrap;
     overflow: hidden;
+}
+
+body > .container {
+    margin-top: (2 * $headerBarHeight);
+}
+
+.row {
+    margin-top: ($spacer * 1.5) !important;
 }
 
 .headerBar a, headerBar a:visited, headerBar a:hover {
@@ -49,16 +61,18 @@
     color: #ffffff;
 }
 
-.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+.nav-pills > li > a {
+    border-radius: 4px;
+    &:hover {
+        background-color: #eee;
+    }
+}
+
+.nav-pills > li.active > a {
     background-image: -moz-linear-gradient(top,#337ab7,#539ad7);
     background-image: -webkit-linear-gradient(top,#135a97,#337ab7); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
     background-image:         linear-gradient(to bottom,#135a97,#337ab7); /* Chrome 26, Firefox 16+, IE 10+, Opera */
-    }
-
-
-
-.vife_icons > li {
-
+    color: white;
 }
 
 .vife_icon {
@@ -99,50 +113,14 @@ a.vife_werkzeuge2 {
     height: 30px;
 }
 
-.vife_teamMember {
-    /*background-image:url(http://www.jellythemes.com/themes/orion_wp/wp-content/themes/orion1.3/img/team/team_02.png);
-    background-position: center;
-    background-repeat: no-repeat;*/
-    height: 220px;
+.vife_teamMember, .vife_alumni, .vife_project, .tool {
+    img {
+        max-height: 250px;
+        object-fit: contain;
+    }
 }
 
-/*
-.vife_projects {
-    margin-top: 30px; 
-    background-image: url('img/beethoven.png');
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 105px
-}
-*/
-
-.well.vife_project {
-    height: 260px;
-}
-
-.well.tool {
-    min-height: 250px;
-}
-
-.well.vife_project h3, .well.tool h3 {
-    margin-top: 0;
-}
-
-.well.vife_project .imgBox, .well.tool .imgBox {
-    margin: 10px auto;
-    text-align: center;
-}
-
-.well.tool .imgBox {
-    display: none;
-}
-
-.well.vife_project img, .well.tool img {
-    max-width: 280px;
-    max-height: 100px;
-}
-
-.well.tool.external_tool {
+.external_tool {
     background: repeating-linear-gradient(
         150deg,
         #f5f5f5,

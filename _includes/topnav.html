@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="col">
+        <ul class="nav nav-pills vife_icons">
+            {% for item in site.data.topnav %}
+            <li role="presentation" {% if page.url == item.link %}class="active"{% endif %}>
+                <a class="navbar-brand vife_icon" href="{{ item.link | relative_url }}">
+                    <span class="fa fa-2x fa-{{ item.glyph }}" aria-hidden="true"></span>
+                    <span class="vife_iconText">{{ item.name }}</span>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

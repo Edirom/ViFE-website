@@ -1,0 +1,113 @@
+nfdi:
+  name: NFDI4Culture
+  url: https://nfdi4culture.de
+  funder: BMBF
+  start: 2020
+  logo: https://nfdi4culture.de/typo3conf/ext/culture_portal/Resources/Public/Build/images/n4c-logo-black.4b9cb10d.svg
+edirom:
+  name: Edirom
+  url: https://edirom.de/edirom-projekt/
+  start: 2006
+  end: 2012
+  funder: DFG
+  logo: /assets/img/edirom.png
+zenmem:
+  name: ZenMEM
+  url: https://zenmem.de
+  start: 2014
+  end: 2019
+  funder: BMBF
+  logo: /assets/img/zenmem.png
+hoftheater:
+  name: Detmolder Hoftheater
+  url: https://hoftheater-detmold.de
+  funder: DFG
+  start: 2014
+  end: 2020
+  logo: /assets/img/hoftheater_text.png
+freidi:
+  name: Freischütz Digital
+  url: https://freischuetz-digital.de
+  funder: BMBF
+  start: 2012
+  end: 2015
+  logo: /assets/img/freidi.png
+bith:
+  name: Beethoven in the house
+  url: https://www.uni-paderborn.de/forschung/forschungsnachrichten/nachricht/beethoven-in-the-house
+  start: 2020
+bw:
+  name: Beethovens Werkstatt
+  url: https://beethovens-werkstatt.de
+  start: 2014
+  end: 2029
+  logo: /assets/img/beethoven.png
+  funder: AdW Mainz
+mei:
+  name: Digital Music Notation Data Model and Prototype Delivery System
+  url: https://music-encoding.org
+  start: 2010
+  end: 2014
+  logo: /assets/img/meiLogo.png
+  funder: DFG/NEH
+wega:
+  name: Carl-Maria-von-Weber-Gesamtausgabe
+  url: https://weber-gesamtausgabe.de
+  start: 1993
+  end: 2026
+  logo: /assets/img/wega.png
+  funder: AdW Mainz
+textgrid:
+  name: TextGrid
+  url: https://textgrid.de
+  start: 2009
+  end: 2012
+  logo: /assets/img/textgrid.png
+  funder: BMBF
+dariah:
+  name: DARIAH-DE
+  url: https://de.dariah.eu
+  start: 2011
+  end: 2016
+  logo: /assets/img/dariah-logo.png
+  funder: BMBF
+henze:
+  name: Henze Digital - Hans Werner Henzes künstlerisches Netzwerk
+  url: https://www.muwi-detmold-paderborn.de/forschung/1-2
+  start: 2021
+  end: 2024
+  funder: DFG
+dfg-viewer:
+  name: DFG-Viewer für musikalische Quellen
+  url: https://www.muwi-detmold-paderborn.de/forschung/dfg-viewer-fuer-musikalische-quellen
+  start: 2021
+  end: 2022
+  logo: /assets/img/dfg-viewer.jpg
+  funder: DFG
+bruckner:
+  name: Digitale Musikanalyse mit MEI
+  url: https://www.oeaw.ac.at/acdh/musikwissenschaft/forschung/projektarchiv/digitale-musikanalyse-mit-mei/
+  start: 2017
+  end: 2019
+  funder: ÖAW
+rwa:
+  name: Reger Werkausgabe
+  url: https://www.reger-werkausgabe.de
+  funder: AdW Mainz
+  start: 2008
+  end: 2026
+  external: true
+opera:
+  name: OPERA – Spektrum des europäischen Musiktheaters
+  url: https://www.opera.adwmainz.de/informationen.html
+  funder: AdW Mainz
+  start: 2009
+  end: 2024
+  external: true
+bazga:
+  name: Bernd Alois Zimmermann-Gesamtausgabe
+  url: https://zimmermann-gesamtausgabe.de
+  funder: AdW Mainz
+  start: 2016
+  end: 2041
+  external: true
