@@ -4,9 +4,8 @@
   "description": "Website of Virtueller Forschungsverbund Edirom",
   "main": "index.html",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack && bundle install && bundle exec jekyll build",
     "serve": "bundle exec jekyll serve --livereload",
-    "install": "webpack && bundle install && bundle exec jekyll build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -14,10 +14,8 @@ COPY --chown=jekyll . .
 
 # build local
 RUN npm i && \
-    npm run build && \
     bundle config set --local path 'vendor/bundle' && \
-    bundle install && \
-    bundle exec jekyll build
+    npm run build
 
 #################
 # nginx
