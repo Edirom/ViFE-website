@@ -71,9 +71,7 @@
   affiliation:
     - dariah
     - bw
-    - bazga
   image: /assets/img/team_kristin.jpg
-  phone: +49 5231 975-669
 - name: Joachim Veit
   sortkey: Veit
   email: veit@weber-gesamtausgabe.de
@@ -182,3 +180,15 @@
   affiliation:
     - bw
   image: /assets/img/team_janpeter.jpeg
+- name: Richard Sänger
+  sortkey: Sänger
+  email: saenger@beethovens-werkstatt.de
+  affiliation:
+    - bw
+  image: /assets/img/team_richard.jpg
+- name: Susanne Cox
+  sortkey: Cox
+  email: cox@beethovens-werkstatt.de
+  affiliation:
+    - bw
+  image: /assets/img/team_susanne.jpg
