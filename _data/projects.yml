@@ -77,6 +77,7 @@ henze:
   start: 2021
   end: 2024
   funder: DFG
+  logo: /assets/img/hendi.png
 dfg-viewer:
   name: DFG-Viewer für musikalische Quellen
   url: https://www.muwi-detmold-paderborn.de/forschung/dfg-viewer-fuer-musikalische-quellen
