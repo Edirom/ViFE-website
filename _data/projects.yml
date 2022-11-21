@@ -34,8 +34,10 @@ freidi:
   logo: /assets/img/freidi.png
 bith:
   name: Beethoven in the house
-  url: https://www.uni-paderborn.de/forschung/forschungsnachrichten/nachricht/beethoven-in-the-house
+  url: https://domestic-beethoven.eu
   start: 2020
+  end: 2023
+  funder: DFG, UK Arts and Humanities Research Council
 bw:
   name: Beethovens Werkstatt
   url: https://beethovens-werkstatt.de
