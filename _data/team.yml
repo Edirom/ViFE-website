@@ -61,8 +61,6 @@
 - name: Vera Grund
   sortkey: Grund
   email: vgrund@mail.uni-paderborn.de
-  affiliation:
-    - ballet
   image: /assets/img/team_vera.png
   phone: +49 5231 975-671
 - name: Kristin Herold
@@ -120,6 +118,7 @@
   email: anastasia.wawilow@upb.de
   affiliation:
     - zenmem
+    - nfdi
   image: /assets/img/team_anastasia.JPG
   phone: +49 5231 975–665
 - name: Mark Saccomano
