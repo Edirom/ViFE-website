@@ -193,3 +193,7 @@
   affiliation:
     - bw
   image: /assets/img/team_susanne.jpg
+- name: Dennis Friedl
+  sortkey: Friedl
+  email: dennis.friedl@uni-paderborn.de
+  image: /assets/img/team_dfriedl.png
