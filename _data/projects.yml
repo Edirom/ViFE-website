@@ -114,3 +114,10 @@ bazga:
   start: 2016
   end: 2041
   external: true
+korngold:
+  name: Erich Wolfgang Korngold Werkausgabe
+  url: https://korngold-werkausgabe.de/
+  funder: AdW Mainz, BBAW
+  start: 2021
+  end: 2045
+  external: true
