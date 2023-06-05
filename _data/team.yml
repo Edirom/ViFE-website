@@ -196,6 +196,8 @@
 - name: Dennis Friedl
   sortkey: Friedl
   email: dennis.friedl@uni-paderborn.de
+  affiliation:
+    - korngold
   image: /assets/img/team_dfriedl.png
 - name: Dunja Jeske
   sortkey: Jeske
