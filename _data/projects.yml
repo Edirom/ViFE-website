@@ -129,4 +129,10 @@ cdmd:
   start: 2020
   external: true
   logo: https://cdmd.adwmainz.net/images/CDMD_Logo_grand_black_cut.svg
-  
+textplus:
+  name: Text+ – Sprach- und textbasierte Forschungsdateninfrastruktur
+  url: https://www.text-plus.org/
+  funder: DFG
+  start: 2021
+  end: 2026
+  external: true
