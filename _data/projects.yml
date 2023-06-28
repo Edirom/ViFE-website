@@ -136,3 +136,10 @@ textplus:
   start: 2021
   end: 2026
   external: true
+hdv:
+  name: Das Handwerk des Verlegers
+  url: https://hdv-beethoven.de/
+  funder: Fritz Thyssen Stiftung
+  start: 2021
+  end: 2023
+  external: true
