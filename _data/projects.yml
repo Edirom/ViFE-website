@@ -3,6 +3,7 @@ nfdi:
   url: https://nfdi4culture.de
   funder: BMBF
   start: 2020
+  end: 2025
   logo: https://nfdi4culture.de/typo3conf/ext/culture_portal/Resources/Public/Build/images/n4c-logo-black.4b9cb10d.svg
 edirom:
   name: Edirom
@@ -121,3 +122,11 @@ korngold:
   start: 2021
   end: 2045
   external: true
+cdmd:
+  name: Centre for Digital Music Documentation (CDMD)
+  url: https://cdmd.adwmainz.net/
+  funder: AdW Mainz
+  start: 2020
+  external: true
+  logo: https://cdmd.adwmainz.net/images/CDMD_Logo_grand_black_cut.svg
+  
