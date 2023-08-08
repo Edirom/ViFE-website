@@ -143,3 +143,8 @@ hdv:
   start: 2021
   end: 2023
   external: true
+openedirom:
+  name: OPEN Edirom
+  url: https://kreativ.institute/
+  start: 2023
+  end: 2023
