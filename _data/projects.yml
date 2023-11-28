@@ -58,7 +58,7 @@ wega:
   url: https://weber-gesamtausgabe.de
   start: 1993
   end: 2026
-  logo: /assets/img/wega.png
+  logo: /assets/img/logo_wega_blau.svg
   funder: AdW Mainz
 textgrid:
   name: TextGrid
