@@ -16,3 +16,6 @@
 - name: Werkzeuge
   link: /werkzeuge.html
   glyph: wrench
+- name: Blog
+  link: /blog.html
+  glyph: rss

@@ -1,0 +1,23 @@
+{%- comment -%}
+taken from https://www.codingblatt.de/jekyll-monatsnamen-datumsformatierung/
+{%- endcomment -%}
+{%- assign formattedDate = '' -%}
+
+{%- if include.showDayOfWeek -%}
+{%- assign dayNames = 'Mo.,Di.,Mi.,Do.,Fr.,Sa.,So.' | split: ',' -%}
+{%- assign dayOfWeek = include.date | date: '%-w' | minus: 1 -%}
+{%- assign formattedDate = dayNames[dayOfWeek] | append: ', ' -%}
+{%- endif -%}
+
+{%- if include.showDay -%}
+{%- assign day = include.date | date: '%-d' | append: '. ' -%}
+{%- assign formattedDate = formattedDate | append: day -%}
+{%- endif -%}
+
+{%- assign monthNames =
+'Jan.,Febr.,März,April,Mai,Juni,Juli,Aug.,Sept.,Okt.,Nov.,Dez.' -%}
+{%- assign monthNames = monthNames | split: ',' -%}
+{%- assign month = include.date | date: '%-m' | minus: 1 -%}
+
+{%- assign formattedDate = formattedDate | append: monthNames[month] -%}
+{%- assign formattedDate = include.date | date: '%Y' | prepend: ' ' | prepend: formattedDate -%}
