@@ -9,7 +9,7 @@ teaserImage: "/assets/blog/2024-03-06/IMG_0726.JPG"
 Der Virtuelle Forschungsverbund Edirom hat das Jahr 2024 mit einer dreitägigen Klausurtagung begonnen. Die inzwischen fast [30 Personen](https://edirom.de/team.html "Das ViFE-Team") umfassende Gruppe, die in Projekten verstreut über das gesamte Bundesgebiet arbeiten, trifft sich regelmäßig an unterschiedlichen Orten Rund um die Mitte Deutschlands. Einerseits geht es dabei um die strategische Ausrichtung der Forschungsgruppe und andererseits um den persönlichen Austausch unter den Mitgliedern und den beteiligten Projekten zu ermöglichen und zu fördern.
 
 <figure>
-<img src="{{site.url}}/assets/blog/2024-03-06/IMG_1965.jpg" alt="Gruppenfoto VIFE-Klausur Hofgeismar Januar 2024"/>
+<img src="{{site.url}}/assets/blog/2024-03-06/IMG_1965.jpg" alt="Gruppenfoto VIFE-Klausur Hofgeismar Januar 2024" style="width: 100%"/>
 <figurecaption>Mitglieder des ViFE im Januar 2024 in Hofgeismar. Foto: Ran Mo und Johannes Kepper.</figurecaption>
 </figure>
 
@@ -17,7 +17,7 @@ Dieses Mal trafen sich die Mitglieder im nordhessischen Hofgeismar in der dort a
 
 <figure>
 <img src="{{site.url}}/assets/blog/2024-03-06/IMG_0730.JPG"/>
-<figurecaption>Das <a href="https://de.wikipedia.org/w/index.php?title=Schlösschen_Schönburg&oldid=237787162" alt="Schlösschen Schönburg">Schlösschen Schönburg</a> der Evangelischen Tagungsstätte Hofgeismar. Für drei Tage Ort der Januar-Klausurtagung 2024 des ViFE. Foto: Martin Albrecht-Hohmaier.</figurecaption>
+<figurecaption>Das <a href="https://de.wikipedia.org/w/index.php?title=Schlösschen_Schönburg&oldid=237787162" alt="Schlösschen Schönburg" style="width: 100%">Schlösschen Schönburg</a> der Evangelischen Tagungsstätte Hofgeismar. Für drei Tage Ort der Januar-Klausurtagung 2024 des ViFE. Foto: Martin Albrecht-Hohmaier.</figurecaption>
 </figure>
 
 # Persönliche Neuanfänge
