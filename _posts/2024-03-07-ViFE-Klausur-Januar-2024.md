@@ -2,7 +2,7 @@
 layout: post
 title: "Neuanfänge: Der ViFE blogt jetzt! – Bericht zur ViFE-Klausurtagung Ende Januar 2024"
 authors: Nikolaos Beer,
-excerpt: Der Virtuelle Forschungsverbund Edirom (ViFE) hat sich zu seiner regelmäßigen Klausurtagung getroffen. Diesmal fand das Treffen im Kontext personeller, institutioneller und thematischer Neuanfänge statt. Dieser erste Blog-Beitrag des neuen ViFE-Blogs berichtet davon.
+excerpt: Der Virtuelle Forschungsverbund Edirom (ViFE) hat sich zu seiner regelmäßigen Klausurtagung getroffen. Diesmal fand das Treffen im Kontext personeller, institutioneller und inhaltlicher Neuanfänge statt. Dieser erste Blog-Beitrag des neuen ViFE-Blogs – ein Neuanfang – berichtet davon.
 teaserImage: /assets/img/blog/hofgeismar202401.png
 ---
 
