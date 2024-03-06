@@ -3,12 +3,22 @@ layout: post
 title: "Neuanfänge: Der ViFE blogt jetzt! – Bericht zur ViFE-Klausurtagung Ende Januar 2024"
 authors: Nikolaos Beer,
 excerpt: Der Virtuelle Forschungsverbund Edirom (ViFE) hat sich zu seiner regelmäßigen Klausurtagung getroffen. Diesmal fand das Treffen im Kontext personeller, institutioneller und inhaltlicher Neuanfänge statt. Dieser erste Blog-Beitrag des neuen ViFE-Blogs – ein Neuanfang – berichtet davon.
-teaserImage: /assets/img/blog/hofgeismar202401.png
+teaserImage: /assets/blog/2024-03-06/IMG_0726.JPG
 ---
 
 Der Virtuelle Forschungsverbund Edirom hat das Jahr 2024 mit einer dreitägigen Klausurtagung begonnen. Die inzwischen fast [30 Personen](https://edirom.de/team.html "Das ViFE-Team") umfassende Gruppe, die in Projekten verstreut über das gesamte Bundesgebiet arbeiten, trifft sich regelmäßig an unterschiedlichen Orten Rund um die Mitte Deutschlands. Einerseits geht es dabei um die strategische Ausrichtung der Forschungsgruppe und andererseits um den persönlichen Austausch unter den Mitgliedern und den beteiligten Projekten zu ermöglichen und zu fördern.
 
-Dieses Mal trafen sich die Mitglieder im nordhessischen Hofgeismar in der dort angesiedelten Tagungsstätte der Evangelisch Akademie. Thematisch stand das Treffen gleich in mehrfacher Hinsicht unter dem zentralen Begriff *Neuanfänge*.
+<figure>
+<img src="../assets/blog/2024-03-06/IMG_1965.jpg" alt="Gruppenfoto VIFE-Klausur Hofgeismar Januar 2024"></img>
+<figurecaption>Mitglieder des ViFE im Januar 2024 in Hofgeismar. Foto: Ran Mo und Johannes Kepper.</figurecaption>
+</figure>
+
+Dieses Mal trafen sich die Mitglieder im nordhessischen Hofgeismar in der dort angesiedelten Tagungsstätte der Evangelischen Akademie. Thematisch stand das Treffen gleich in mehrfacher Hinsicht unter dem zentralen Begriff *Neuanfänge*.
+
+<figure>
+<img src="../assets/blog/2024-03-06/IMG_0730.JPG"></img>
+<figurecaption>Das <a href="https://de.wikipedia.org/w/index.php?title=Schlösschen_Schönburg&oldid=237787162" alt="Schlösschen Schönburg">Schlösschen Schönburg</a> der Evangelischen Tagungsstätte Hofgeismar. Für drei Tage Ort der Januar-Klausurtagung 2024 des ViFE. Foto: Martin Albrecht-Hohmaier.</figurecaption>
+</figure>
 
 # Persönliche Neuanfänge
  So nahmen drei Edirom- bzw. ViFE-Urgesteine im Rahmen ihrer neuen Stellen bzw. erweiterten Aufgabengebiete teil:
@@ -32,6 +42,3 @@ Eine andere *Wegmarke* ist diese Website des ViFE – www.edirom.de – und die 
 Wichtiger noch erscheint es aber, die einzelnen Akteure des ViFE zu Wort kommen zu lassen. Eben dieser vorliegende Bericht ist der Startpunkt für einen weiteren Neubeginn: Das neue [ViFE-Blog](https://edirom.de/blog.html). Ab sofort werden die Mitglieder des ViFE in regelmäßigen Abständen über Ihre Arbeit, Erfahrungen und Problemstellungen berichten. Neben Einzelbeiträgen soll es hierbei auch thematische Reihen geben, die übergreifende Aspekte aus unterschiedlichen persönlichen Perspektiven betrachten. Beginnen wollen wir mit einer Vorstellungsrunde die Einblick in individuelle ViFE-Geschichten,  jeweilige Arbeitsfelder und die uns beschäftigenden geistes- bzw. musikwissenschaftlichen und/oder technischen Problemstellungen geben.
 
 Auf den Neubeginn!
-
-{{ „/assets/blog/image.jpg“ | relative_url }}
-
