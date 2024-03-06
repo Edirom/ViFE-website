@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Neuanfänge: Der ViFE blogt jetzt! – Bericht zur ViFE-Klausurtagung Ende Januar 2024"
+title: "Neuanfänge: Der ViFE blogt jetzt! Bericht zur ViFE-Klausurtagung Ende Januar 2024"
 authors: "Nikolaos Beer"
 excerpt: "Der Virtuelle Forschungsverbund Edirom (ViFE) hat sich zu seiner regelmäßigen Klausurtagung getroffen. Diesmal fand das Treffen im Kontext personeller, institutioneller und inhaltlicher Neuanfänge statt. Dieser erste Blog-Beitrag des neuen ViFE-Blogs – ein Neuanfang – berichtet davon."
 teaserImage: "/assets/blog/2024-03-06/IMG_0726.JPG"
