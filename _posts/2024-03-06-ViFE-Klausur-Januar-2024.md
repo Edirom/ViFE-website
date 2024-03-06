@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Neuanfänge: Der ViFE blogt jetzt! – Bericht zur ViFE-Klausurtagung Ende Januar 2024"
-authors: Nikolaos Beer,
-excerpt: Der Virtuelle Forschungsverbund Edirom (ViFE) hat sich zu seiner regelmäßigen Klausurtagung getroffen. Diesmal fand das Treffen im Kontext personeller, institutioneller und inhaltlicher Neuanfänge statt. Dieser erste Blog-Beitrag des neuen ViFE-Blogs – ein Neuanfang – berichtet davon.
-teaserImage: /assets/blog/2024-03-06/IMG_0726.JPG
+authors: "Nikolaos Beer"
+excerpt: "Der Virtuelle Forschungsverbund Edirom (ViFE) hat sich zu seiner regelmäßigen Klausurtagung getroffen. Diesmal fand das Treffen im Kontext personeller, institutioneller und inhaltlicher Neuanfänge statt. Dieser erste Blog-Beitrag des neuen ViFE-Blogs – ein Neuanfang – berichtet davon."
+teaserImage: "/assets/blog/2024-03-06/IMG_0726.JPG"
 ---
 
 Der Virtuelle Forschungsverbund Edirom hat das Jahr 2024 mit einer dreitägigen Klausurtagung begonnen. Die inzwischen fast [30 Personen](https://edirom.de/team.html "Das ViFE-Team") umfassende Gruppe, die in Projekten verstreut über das gesamte Bundesgebiet arbeiten, trifft sich regelmäßig an unterschiedlichen Orten Rund um die Mitte Deutschlands. Einerseits geht es dabei um die strategische Ausrichtung der Forschungsgruppe und andererseits um den persönlichen Austausch unter den Mitgliedern und den beteiligten Projekten zu ermöglichen und zu fördern.
