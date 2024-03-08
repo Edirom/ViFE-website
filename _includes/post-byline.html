@@ -1,0 +1,24 @@
+<p class="byline">
+    {% assign authorCount = include.authors | size %}
+    {% include date-german.html
+        date=include.date
+        showDayOfWeek=false
+        showDay=true %}
+
+    {% if authorCount == 0 %}
+    <!-- no author given -->
+    {% elsif authorCount == 1 %}
+    {{ include.authors }}, {{ formattedDate }}
+    {%- else -%}
+    {%- for author in include.authors -%}
+    {%- if forloop.first -%}
+    <span>{{ author }}</span>
+    {%- elsif forloop.last -%}
+    <span> und {{ author }}</span>
+    {%- else -%}
+    <span>, {{ author }}</span>
+    {%- endif -%}
+    {%- endfor -%}
+    , {{ formattedDate }}
+    {%- endif -%}
+</p>

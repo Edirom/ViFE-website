@@ -1,0 +1,21 @@
+---
+layout: default
+title: Blog
+---
+
+<div class="row">
+    <div class="col-md-8">
+        {% for post in site.posts limit: 3 %}
+        <div class="card bg-light my-4">
+            <div class="card-body">
+                <h3>{{post.title}}</h3>
+                <p class="card-text">{{ post.excerpt | strip_html }}</p>
+                {% include post-byline.html
+                    authors=post.authors
+                    date=post.date %}
+                <a class="btn btn-primary" href="{{post.url}}" role="button">Zum Beitrag</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
