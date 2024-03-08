@@ -27,7 +27,7 @@ Right after the metadata head begin with your markdown encoded text.
 As support for figures and figure captures is limited in markdown you could use HTML:
 
     <figure>
-        <img src="{{site.url}}/assets/blog/[PathToYourImage]" alt="[Alternative Titel]" style="width: 100%"/>
+        <img src="{{ '/assets/blog/[PathToYourImage]' | relative_url }}" alt="[Alternative Titel]" style="width: 100%"/>
         <figurecaption><small>[Your Figure capture]</small></figurecaption>
     </figure>
 
