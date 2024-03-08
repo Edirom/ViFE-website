@@ -34,4 +34,16 @@ As support for figures and figure captures is limited in markdown you could use 
 ## Tips
 1. oXygen XML Editor has integrated markdown support. You can write and preview your text.
 2. You could also use VS Code with any of its installable markdown extensions. Or: use any other desiered text editor.
-3. Look through other/older blogposts  
+3. Look through other/older blogposts
+
+# Want to see or to test what you have done?
+As soon as you push your commits to the GitHub repo it will start to build the complete website as a docker container that you could test in your own docker installation:
+
+- go to the [ViFE's GitHub repo](https://github.com/Edirom/ViFE-website)
+- choose *Packages* (on the right hand side bar)
+- click on [vife-website](https://github.com/orgs/Edirom/packages/container/package/vife-website)
+- in the following list find your branch name (`blogpost-[some_name]`) and click on it
+- there you will find information on how to get the image
+- fire it up in your docker installation
+
+When you have made changes to your post that you want to see live: repeat.
