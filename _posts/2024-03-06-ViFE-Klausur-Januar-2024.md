@@ -6,7 +6,7 @@ excerpt: "Der Virtuelle Forschungsverbund Edirom (ViFE) hat sich zu seiner regel
 teaserImage: "/assets/blog/2024-03-06/IMG_0726.JPG"
 ---
 
-Der Virtuelle Forschungsverbund Edirom hat das Jahr 2024 mit einer dreitägigen Klausurtagung begonnen. Die inzwischen fast [30 Personen](https://edirom.de/team.html "Das ViFE-Team") umfassende Gruppe, die in Projekten verstreut über das gesamte Bundesgebiet arbeiten, trifft sich regelmäßig an unterschiedlichen Orten Rund um die Mitte Deutschlands. Einerseits geht es dabei um die strategische Ausrichtung der Forschungsgruppe und andererseits darum, den persönlichen Austausch unter den Mitgliedern und den beteiligten Projekten zu ermöglichen und zu fördern.
+Der Virtuelle Forschungsverbund Edirom hat das Jahr 2024 mit einer dreitägigen Klausurtagung begonnen. Die inzwischen fast [30 Personen]({{ "/team.html" | relative_url }} "Das ViFE-Team") umfassende Gruppe, die in Projekten verstreut über das gesamte Bundesgebiet arbeiten, trifft sich regelmäßig an unterschiedlichen Orten Rund um die Mitte Deutschlands. Einerseits geht es dabei um die strategische Ausrichtung der Forschungsgruppe und andererseits darum, den persönlichen Austausch unter den Mitgliedern und den beteiligten Projekten zu ermöglichen und zu fördern.
 
 <figure>
 <img src="{{site.url}}/assets/blog/2024-03-06/IMG_1965.jpg" alt="Gruppenfoto VIFE-Klausur Hofgeismar Januar 2024" style="width: 100%"/>
