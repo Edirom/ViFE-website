@@ -10,7 +10,7 @@ Der Virtuelle Forschungsverbund Edirom hat das Jahr 2024 mit einer dreitägigen 
 
 <figure>
 <img src="{{ '/assets/blog/2024-03-06/IMG_1965.jpg' | relative_url }}" alt="Gruppenfoto VIFE-Klausur Hofgeismar Januar 2024" style="width: 100%"/>
-<figurecaption><small>Mitglieder des ViFE im Januar 2024 in Hofgeismar. Foto: Ran Mo und Johannes Kepper.</small></figurecaption>
+<figurecaption><small>Mitglieder des ViFE im Januar 2024 in Hofgeismar. Foto: Ran Mo.</small></figurecaption>
 </figure>
 
 Dieses Mal trafen sich die Mitglieder im nordhessischen Hofgeismar in der dort angesiedelten Tagungsstätte der Evangelischen Akademie. Thematisch stand das Treffen gleich in mehrfacher Hinsicht unter dem zentralen Begriff *Neuanfänge*.
