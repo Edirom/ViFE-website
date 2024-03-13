@@ -10,9 +10,6 @@
 - name: Publikationen
   link: /publikationen.html
   glyph: book
-- name: Termine
-  link: /termine.html
-  glyph: calendar
 - name: Werkzeuge
   link: /werkzeuge.html
   glyph: wrench
