@@ -1,6 +1,7 @@
 FROM jekyll/jekyll:builder as builder
 
 ENV WORK_DIR=/var/jekyllbuilder
+ARG BUILD_SCRIPT=build
 
 # since WORKDIR will not honour the USER directive
 # we need to create the directory and set permissions in advance
@@ -15,7 +16,7 @@ COPY --chown=jekyll . .
 # build local
 RUN npm i && \
     bundle config set --local path 'vendor/bundle' && \
-    npm run build
+    npm run ${BUILD_SCRIPT}
 
 #################
 # nginx
