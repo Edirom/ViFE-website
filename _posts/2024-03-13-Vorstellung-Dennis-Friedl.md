@@ -7,7 +7,7 @@ teaserImage: "/assets/blog/2024-03-13/dennisfriedl.png"
 ---
 
 <figure>
-<img src="{{ '/assets/blog/2024-03-13/dennisfriedl.png' | relative_url }}" alt="Dennis Friedl" style="transform: scale(0.5);"/>
+<img src="{{ '/assets/blog/2024-03-13/dennisfriedl.png' | relative_url }}" alt="Dennis Friedl" style="height: 400px"/>
 </figure>
 
 ## Mein Weg zum ViFE
