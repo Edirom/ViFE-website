@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "build": "webpack && bundle install && bundle exec jekyll build",
-    "serve": "bundle exec jekyll serve --livereload",
+    "build-drafts": "webpack && bundle install && bundle exec jekyll build --drafts",
+    "serve": "bundle exec jekyll serve --livereload --drafts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
