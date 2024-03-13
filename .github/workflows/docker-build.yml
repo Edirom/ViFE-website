@@ -1,17 +1,12 @@
 name: Docker Build
 
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-
 on:
   schedule:
     # run every Thursday at 01:31
     - cron: '31 01 * * 4'
   # run on every push to any branch
   push:
-  
+
 env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: ghcr.io
@@ -70,4 +65,5 @@ jobs:
           context: .
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
+          build-args: ${{ contains(github.ref, 'blogpost') && 'BUILD_SCRIPT=build-drafts' || 'BUILD_SCRIPT=build' }}
           labels: ${{ steps.meta.outputs.labels }}
