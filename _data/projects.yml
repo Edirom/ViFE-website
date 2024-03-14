@@ -65,7 +65,7 @@ textgrid:
   url: https://textgrid.de
   start: 2009
   end: 2012
-  logo: /assets/img/textgrid.png
+  logo: /assets/img/textgrid-logo.svg
   funder: BMBF
 dariah:
   name: DARIAH-DE
