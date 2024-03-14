@@ -3,7 +3,7 @@ layout: post
 title: "Der ViFE stellt sich vor: Dennis Friedl"
 authors: "Dennis Friedl"
 excerpt: "ViFE-Mitglied Dennis Friedl stellt sich vor und berichtet von seinem Weg zum ViFE, seiner Arbeit im Forschungsdatenmanagement, der Korngold-Werkausgabe und seinem Promotionsvorhaben."
-teaserImage: "/assets/blog/2024-03-13/dennisfriedl.png"
+teaserImage: "/assets/blog/2024-03-13/teaser.jpg"
 ---
 
 Hallo! Ich bin Dennis Friedl und meine Geschichte mit dem ViFE begann vor einigen Jahren, als ich während meines Bachelorstudiums im Jahr 2017 die glückliche Entscheidung traf, an einer Spring School *Digitale Geschichtswissenschaft* teilzunehmen, die u.a. von Peter Stadler organisiert wurde. Rückblickend sollte sich diese Spring School als geradezu lebensverändernd herausstellen, denn durch sie kam ich erstmalig mit den aufregenden Möglichkeiten der *Digital Humanities* in Kontakt, insbesondere mit der digitalen Quelleneditorik und der TEI. Die neue Vorliebe war nicht mehr aufzuhalten und so wurde meine weitere Laufbahn in eine ganz andere Richtung gelenkt, als ursprünglich geplant. Es folgten mehrere Besuche der *[Edirom Summer School]("https://ess.uni-paderborn.de/")*, die mich unaufhaltsam weiter in die Welt von TEI, MEI, ODD, XPath, XSLT und XQuery zogen und mich mit den Technologien und Methoden der digitalen (Musik-)Edition vertraut machten.
