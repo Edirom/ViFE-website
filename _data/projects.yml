@@ -122,6 +122,7 @@ korngold:
   start: 2021
   end: 2045
   external: true
+  logo: /assets/img/korngold-logo-trans.png
 cdmd:
   name: Centre for Digital Music Documentation (CDMD)
   url: https://cdmd.adwmainz.net/
