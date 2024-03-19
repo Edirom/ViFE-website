@@ -224,3 +224,8 @@
   image: /assets/img/team_henner.jpg
   affiliation:
     - tamudi
+- name: Anna Viktoria Katrin Plaksin
+  sortkey: Plaksin
+  image: assets/img/team_annaP.jpg
+  affiliation:
+    - kio
