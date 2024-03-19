@@ -146,6 +146,13 @@ hdv:
   external: true
 openedirom:
   name: OPEN Edirom
-  url: https://kreativ.institute/
+  url: https://upb.de/projekt/1064
+  funder: MWIKE NRW, Bezirksregierung Detmold
   start: 2023
-  end: 2023
+  end: 2024
+tamudi:
+  name: Tanz/Musik digital
+  url: https://upb.de/projekt/744
+  funder: DFG
+  start: 2023
+  end: 2026
