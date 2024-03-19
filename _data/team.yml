@@ -215,3 +215,9 @@
   image: /assets/img/team_tobias.jpg
   affiliation:
     - openedirom
+- name: Henner Drewes
+  sortkey: Drewes
+  email: henner.drewes@uni-paderborn.de
+  image: /assets/img/team_henner.jpg
+  affiliation:
+    - tamudi
