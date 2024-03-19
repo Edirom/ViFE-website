@@ -156,3 +156,11 @@ tamudi:
   funder: DFG
   start: 2023
   end: 2026
+kio:
+  name: KreativInstitut.OWL
+  url: https://kreativ.institute
+  funder: Ministerium für Wirtschaft, Industrie, Klimaschutz und Energie des Landes Nordrhein-Westfalen
+  start: 2022
+  end: 2026
+  external: true
+  logo: https://kreativ.institute/assets/images/kio_logo_long_onwhite.svg
