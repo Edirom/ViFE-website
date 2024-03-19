@@ -63,6 +63,8 @@
   email: vgrund@mail.uni-paderborn.de
   image: /assets/img/team_vera.png
   phone: +49 5231 975-671
+  affiliation:
+    - tamudi
 - name: Kristin Herold
   sortkey: Herold
   email: kristin.herold@uni-paderborn.de
@@ -111,6 +113,7 @@
     - zenmem
     - bw
     - nfdi
+    - tamudi
   image: /assets/img/team_andreas.png
   phone: +49 5231 975–672
 - name: Anastasia Wawilow
