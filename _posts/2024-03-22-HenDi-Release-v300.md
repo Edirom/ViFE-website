@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Henze-digital: Release Version 3.0.0"
+authors: "Irmlind Capelle"
+---
+
+Am 16. Februar 2024 hat das Projekt „Henze-digital: Hans Werner Henzes künstlerisches Netzwerk“ ([https://henze-digital.zenmem.de](https://henze-digital.zenmem.de)) mit der Veröffentlichung der Auden/Kallman/Henze-Korrespondenz die dritte Version seines Portals veröffentlicht: Es liegen damit jetzt drei Korrespondenzen mit einem Umfang von 178 postalischen Dokumenten und 11 weiteren Dokumenten vor. Dazu kommen folgende Register-Dateien: 440 Personendateien, 203 Werkdateien, 459 Ortsdateien, 117 Dateien zu Organisationen und neu in diesem Release: 72 Einträge in der Bibliographie. Ferner wurde jedes Release mit einer Einführung zu der jeweiligen Korrespondenz und einer Einführung in die Entwicklung der WebApp zusammenfassend erläutert.
+
+Warum wählen wir als kurzfristiges Projekt (Ende der jetzigen Förderphase ist Ende August 2024) diese Form der Publikation und warten nicht bis zum Projektende, um dann alle sechs Korrespondenzen auf einmal zu veröffentlichen?
+
+Einerseits sind die einzelnen Korrespondenzen so unterschiedlich, dass die Anforderungen für ihre inhaltliche Erschließung sehr verschieden sind. Dies liegt zum einen an den unterschiedlichen Zeiträumen, in denen die Korrespondenzen geschrieben sind, aber auch an den unterschiedlichen Gegenständen der Briefwechsel: Einige haben einen sehr deutlichen Fokus auf der gemeinsamen Arbeit (Auden/Kallman, z. T. Enzensberger), andere sind sehr geprägt von politischen Themen (Hitzer, Barnet, Enzensberger) und wieder andere von privaten und musik- bzw. theatergeschichtlichen Themen der Nachkriegszeit (Weil/Jockisch). Die Korrespondenz mit dem Mäzen Paul Sacher hat einen grundsätzlich anderen Gegenstand, da es vor allem um die Organisation von Konzerten und die Vergabe von Kompositionsaufträgen geht, auch wenn in den späteren Jahren privatere Themen einfließen.
+
+Aus diesen Gründen bot es sich an, die inhaltliche Arbeit an einer einzelnen Korrespondenz zu bündeln, auch wenn es natürlich immer wieder Überschneidungen bzw. Querverweise gibt (vor allem zwischen den Korrespondenzen mit Barnet und Enzensberger in der kubanischen Zeit, aber auch zwischen Hitzer und Enzensberger).
+
+Doch auch für die Entwicklung der HenDi-WebApp bot sich eine schrittweise Publikation an. Natürlich musste schon für die erste Veröffentlichung ein funktionierendes Portal vorliegen, was zum Glück durch die Nachnutzung der WeGA-WebApp bereits nach zwei Jahren möglich war. Doch einige Weiterentwicklungen wie z. B. die Möglichkeit, sich die einzelnen Korrespondenzen getrennt anzeigen zu lassen, wurden natürlich für die Publikation einer einzigen Korrespondenz in der ersten Version noch nicht benötigt, ebenso wenig die Querverweise zwischen den Korrespondenzen.
+
+Durch die Versionierung konnten aber mit jeder weiteren Publikation einer Korrespondenz auch Details in der Anzeige bzw. im Zugang bei den bereits veröffentlichten Korrespondenzen verbessert werden. Hierzu gehört einerseits die Verbesserung der Darstellung der gegenüber der WeGA neuen Dokumenttypen (Ansichtskarten, Telegramme) und die projektspezifische Verfeinerung der Filtermöglichkeiten bei den Katalogdaten. In der letzten Version wurde dann auch ein „neues“ Register, die Bibliographie, freigeschaltet. 
+
+So entwickelt sich das HenDi-Portal inhaltlich (wobei die einzelnen Korrespondenzen bei der Veröffentlichung „fertig“ sind) wie technisch immer weiter: Während ich diesen Text geschrieben habe, arbeitete Dennis Ried noch an einem Maintenance-Release (v3.1.0), das heute (20. März) online gegangen ist. So kann bei einem Release auch einmal der technische Fortschritt im Vordergrund stehen, ohne dass dafür neue Briefe publiziert werden müssen.
+
+Irmlind Capelle, 20. März 2024
