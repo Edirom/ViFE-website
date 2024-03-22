@@ -2,9 +2,15 @@
 layout: post
 title: "Henze-digital: Release Version 3.0.0"
 authors: "Irmlind Capelle"
+excerpt: "Über das dritte Release von Henze-digital: Inhaltliches, Neuerungen und über die Arbeit mit Versionen."
+teaserImage: "/assets/blog/2024-03-22/HenDi-Logo.png"
 ---
 
 Am 16. Februar 2024 hat das Projekt „Henze-digital: Hans Werner Henzes künstlerisches Netzwerk“ ([https://henze-digital.zenmem.de](https://henze-digital.zenmem.de)) mit der Veröffentlichung der Auden/Kallman/Henze-Korrespondenz die dritte Version seines Portals veröffentlicht: Es liegen damit jetzt drei Korrespondenzen mit einem Umfang von 178 postalischen Dokumenten und 11 weiteren Dokumenten vor. Dazu kommen folgende Register-Dateien: 440 Personendateien, 203 Werkdateien, 459 Ortsdateien, 117 Dateien zu Organisationen und neu in diesem Release: 72 Einträge in der Bibliographie. Ferner wurde jedes Release mit einer Einführung zu der jeweiligen Korrespondenz und einer Einführung in die Entwicklung der WebApp zusammenfassend erläutert.
+
+<figure>
+<img src="{{ '/assets/blog/2024-03-22/HenDi-Logo.png' | relative_url }}" alt="Henze-Digital Logo" style="width: 100%"/>
+</figure>
 
 Warum wählen wir als kurzfristiges Projekt (Ende der jetzigen Förderphase ist Ende August 2024) diese Form der Publikation und warten nicht bis zum Projektende, um dann alle sechs Korrespondenzen auf einmal zu veröffentlichen?
 
