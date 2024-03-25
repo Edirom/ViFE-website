@@ -6,7 +6,7 @@ excerpt: "ViFE-Mitglied Dennis Ried stellt sich vor und berichtet von seinem Weg
 teaserImage: "/assets/blog/2024-03-27/dennisried.png"
 ---
 
-Guten Tag! Mein Name ist Dennis Ried und auch wenn ich die ViFE schon sehr lange kenne (seit 2015 besuchte ich regelmäßig die Edirom-Summer-School) und es immer wieder Berührungspunkte gab (Reger-Werkausgabe, 2016–2021), bin ich erst durch meinen Wechsel ins Projekt [Henze-Digital](https://henze-digital.zenmem.de/de/Index) (2021) Mitglied in der ViFE geworden.
+Guten Tag! Mein Name ist Dennis Ried und auch wenn ich den ViFE schon sehr lange kenne (seit 2015 besuchte ich regelmäßig die Edirom-Summer-School) und es immer wieder Berührungspunkte gab (Reger-Werkausgabe, 2016–2021), bin ich erst durch meinen Wechsel ins Projekt [Henze-Digital](https://henze-digital.zenmem.de/de/Index) (2021) Mitglied in dem ViFE geworden.
 
 <figure>
 <img src="{{ '/assets/blog/2024-03-27/dennisried.png' | relative_url }}" alt="Dennis Ried" style="height: 400px"/>
@@ -30,7 +30,7 @@ Henze-Digital befindet sich am Ende der ersten Förderphase (2021–2024) und ko
 
 ## Die Edirom-Summer-School
 
-Nach langjährigem Dienst (für den wir unendlich dankbar sind!) hat Irmlind Capelle die Federführung zur Organisation der *[Edirom Summer School](https://ess.uni-paderborn.de/)* (ESS) im Jahr 2022 an mich übergeben. Zum Glück hilft sie im Hintergrund immer noch tatkräftig mit und unterstützt mich und die ViFE wo sie kann.
+Nach langjährigem Dienst (für den wir unendlich dankbar sind!) hat Irmlind Capelle die Federführung zur Organisation der *[Edirom Summer School](https://ess.uni-paderborn.de/)* (ESS) im Jahr 2022 an mich übergeben. Zum Glück hilft sie im Hintergrund immer noch tatkräftig mit und unterstützt mich und den ViFE wo sie kann.
 
 2022 konnten wir mit der ESS nach zweimaligem Ausweichen ins Digitale wieder eine Präsenzveranstaltung durchführen. Auch wenn der digitale Raum seine Vorteile hat, so ist es vor allem der persönliche Austausch der Teilnehmenden vor Ort, der immer wieder positiv angenommen wird.
 
