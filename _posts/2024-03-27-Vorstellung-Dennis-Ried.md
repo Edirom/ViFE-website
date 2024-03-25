@@ -3,7 +3,7 @@ layout: post
 title: "Der ViFE stellt sich vor: Dennis Ried"
 authors: "Dennis Ried"
 excerpt: "ViFE-Mitglied Dennis Ried stellt sich vor und berichtet von seinem Weg zum ViFE, seiner Arbeit für Henze-Digital und für die Edirom-Summer-School."
-teaserImage: "/assets/blog/2024-03-27/dennisried.png"
+teaserImage: "/assets/blog/2024-03-27/dennisried_teaser.png"
 ---
 
 Guten Tag! Mein Name ist Dennis Ried und auch wenn ich den ViFE schon sehr lange kenne (seit 2015 besuchte ich regelmäßig die Edirom-Summer-School) und es immer wieder Berührungspunkte gab (Reger-Werkausgabe, 2016–2021), bin ich erst durch meinen Wechsel ins Projekt [Henze-Digital](https://henze-digital.zenmem.de/de/Index) (2021) Mitglied in dem ViFE geworden.
