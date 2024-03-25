@@ -65,7 +65,7 @@ textgrid:
   url: https://textgrid.de
   start: 2009
   end: 2012
-  logo: /assets/img/textgrid.png
+  logo: /assets/img/textgrid-logo.svg
   funder: BMBF
 dariah:
   name: DARIAH-DE
@@ -90,7 +90,7 @@ dfg-viewer:
   funder: DFG
 bruckner:
   name: Digitale Musikanalyse mit MEI
-  url: https://www.oeaw.ac.at/acdh/musikwissenschaft/forschung/projektarchiv/digitale-musikanalyse-mit-mei/
+  url: https://www.oeaw.ac.at/acdh/musicology/research/archive/digitale-musikanalyse-mit-mei
   start: 2017
   end: 2019
   funder: ÖAW
@@ -122,6 +122,7 @@ korngold:
   start: 2021
   end: 2045
   external: true
+  logo: /assets/img/korngold-logo-trans.png
 cdmd:
   name: Centre for Digital Music Documentation (CDMD)
   url: https://cdmd.adwmainz.net/
@@ -145,6 +146,21 @@ hdv:
   external: true
 openedirom:
   name: OPEN Edirom
-  url: https://kreativ.institute/
+  url: https://upb.de/projekt/1064
+  funder: MWIKE NRW, Bezirksregierung Detmold
   start: 2023
-  end: 2023
+  end: 2024
+tamudi:
+  name: Tanz/Musik digital
+  url: https://upb.de/projekt/744
+  funder: DFG
+  start: 2023
+  end: 2026
+kio:
+  name: KreativInstitut.OWL
+  url: https://kreativ.institute
+  funder: Ministerium für Wirtschaft, Industrie, Klimaschutz und Energie des Landes Nordrhein-Westfalen
+  start: 2022
+  end: 2026
+  external: true
+  logo: https://kreativ.institute/assets/images/kio_logo_long_onwhite.svg
