@@ -28,7 +28,7 @@ As support for figures and figure captures is limited in markdown you could use 
 
     <figure>
         <img src="{{ '/assets/blog/[PathToYourImage]' | relative_url }}" alt="[alternative title]" style="width: 100%"/>
-        <figurecaption><small>[Your Figure capture]</small></figurecaption>
+        <figurecaption>[Your Figure caption text]</figurecaption>
     </figure>
 
 ## Tips

@@ -10,14 +10,14 @@ Der Virtuelle Forschungsverbund Edirom hat das Jahr 2024 mit einer dreitägigen 
 
 <figure>
 <img src="{{ '/assets/blog/2024-03-06/IMG_1965.jpg' | relative_url }}" alt="Gruppenfoto VIFE-Klausur Hofgeismar Januar 2024" style="width: 100%"/>
-<figurecaption><small>Mitglieder des ViFE im Januar 2024 in Hofgeismar. Foto: Ran Mo.</small></figurecaption>
+<figurecaption>Mitglieder des ViFE im Januar 2024 in Hofgeismar. Foto: Ran Mo.</figurecaption>
 </figure>
 
 Dieses Mal trafen sich die Mitglieder im nordhessischen Hofgeismar in der dort angesiedelten Tagungsstätte der Evangelischen Akademie. Thematisch stand das Treffen gleich in mehrfacher Hinsicht unter dem zentralen Begriff *Neuanfänge*.
 
 <figure>
 <img src="{{ '/assets/blog/2024-03-06/IMG_0730.JPG' | relative_url }}" alt="Schlösschen Schönburg Hofgeismar" style="width: 100%"/>
-<figurecaption><small>Das <a href="https://de.wikipedia.org/w/index.php?title=Schlösschen_Schönburg&oldid=237787162">Schlösschen Schönburg</a> der Evangelischen Tagungsstätte Hofgeismar. Für drei Tage Ort der Januar-Klausurtagung 2024 des ViFE. Foto: Martin Albrecht-Hohmaier.</small></figurecaption>
+<figurecaption>Das <a href="https://de.wikipedia.org/w/index.php?title=Schlösschen_Schönburg&oldid=237787162">Schlösschen Schönburg</a> der Evangelischen Tagungsstätte Hofgeismar. Für drei Tage Ort der Januar-Klausurtagung 2024 des ViFE. Foto: Martin Albrecht-Hohmaier.</figurecaption>
 </figure>
 
 # Persönliche Neuanfänge

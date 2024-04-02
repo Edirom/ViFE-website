@@ -18,5 +18,5 @@ Wie auch immer. Sehr viel n√ºchterner hat der ViFE solche Fragen, die latent st√
 
 <figure>
 <img src="{{ '/assets/blog/2024-04-02/fiveaspects.jpg' | relative_url }}" alt="Five Aspects of ViFE Poster" style="width:100%"/>
-<figurecaption><small>Das gemeinsame Poster des ViFE auf der TEIMEC 2023.</small></figurecaption>
+<figurecaption>Das gemeinsame Poster des ViFE auf der TEIMEC 2023.</figurecaption>
 </figure>
