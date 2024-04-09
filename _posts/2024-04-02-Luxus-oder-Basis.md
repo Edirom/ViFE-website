@@ -2,7 +2,7 @@
 layout: post
 title: "Luxus oder Basis? Zusammenarbeit über Projektgrenzen hinweg"
 authors: "Andreas Münzmay"
-excerpt: "Über den Kern des ViFE – die projektübergreifenden Zusammenarbeit – soll sich der unmöglich zu beantwortenden Frage genähert werden, was der ViFE eigentlich ist."
+excerpt: "Über den Kern des ViFE – die projektübergreifende Zusammenarbeit – soll sich der unmöglich zu beantwortenden Frage genähert werden, was der ViFE eigentlich ist."
 teaserImage: "/assets/blog/2024-04-02/vife.jpg"
 ---
 
