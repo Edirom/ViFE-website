@@ -3,7 +3,7 @@ layout: post
 title: "Der ViFE stellt sich vor: Elena Minetti"
 authors: "Elena Minetti"
 excerpt: "ViFE-Mitglied Elena Minetti stellt sich vor und berichtet von ihrem Weg zum ViFE, ihrer Dissertation und ihrer Arbeit im Projekt Henze Digital."
-teaserImage: "/assets/blog/2024-05-07/teaser.jpg"
+teaserImage: "/assets/blog/2024-05-13/teaser.jpg"
 ---
 
 Hallo! Mein Name ist Elena Minetti und seit September 2021 bin ich wissenschaftliche Mitarbeiterin im DFG-Projekt *[Henze-Digital](https://henze-digital.zenmem.de/de/Index)* am Musikwissenschaftlichen Seminar Detmold der Universität Paderborn. Im Team dieser digitalen Briefedition hatte ich die Gelegenheit, den dynamischen und bereichernden *Virtuellen Forschungsverbund Edirom* kennenzulernen und als Mitglied teilzuhaben.
@@ -11,7 +11,7 @@ Bevor ich nach Detmold kam, war mein Studien- und Berufsweg auf Historische Musi
 Die Schlüsselfigur, die meine Ankunft in Detmold bestimmte, ist der Komponist [Hans Werner Henze](https://youtu.be/c5SbRNISFUE?si=Jy30H6JHnl_kRnlW).
 
 <figure>
-<img src="{{ '/assets/blog/2024-05-07/elena.jpeg' | relative_url }}" alt="Foto von Elena" style="width:100%"/>
+<img src="{{ '/assets/blog/2024-05-13/elena.jpeg' | relative_url }}" alt="Foto von Elena" style="width:100%"/>
 <figurecaption>Während einer Dienstreise an der Paul Sacher Stiftung Basel.
 Foto von Joachim Veit.</figurecaption>
 </figure>
