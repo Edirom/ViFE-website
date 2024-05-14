@@ -27,7 +27,7 @@ Komponist [Hans Werner Henze](https://youtu.be/c5SbRNISFUE?si=Jy30H6JHnl_kRnlW).
         Foto von Joachim Veit.</figurecaption>
 </figure>
 
-## Henze und mein Weg vor Detmold
+## Henze und mein Weg nach Detmold
 
 Henzes politische Leidenschaft und sein Wunsch, die Musik für die Gesellschaft
 zu verwenden, brachten ihn dazu, ein politisches und pädagogisches Projekt ins
