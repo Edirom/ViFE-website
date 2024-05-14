@@ -45,7 +45,7 @@ Parallel dazu bildet eine Musikschule, die heute den Namen *Hans
 Werner Henze* trägt, junge Musiker:innen aus. 
 Unter ihnen begann auch ich als Kind an diesem Institut Klavier zu lernen 
 und entschied mich von da an für ein Klavierstudium am Konservatorium in 
-Siena und später für Musikwissenschaft an der Università di Bologna.
+Siena und später für ein Studium der Musikwissenschaft an der Università di Bologna.
 
 In meiner Bachelorarbeit beschäftigte ich mich mit den pädagogischen Aspekten
 von Henzes Kinderoper
