@@ -23,8 +23,7 @@ Komponist [Hans Werner Henze](https://youtu.be/c5SbRNISFUE?si=Jy30H6JHnl_kRnlW).
 <figure>
     <img src="{{ '/assets/blog/2024-05-13/elena.jpeg' | relative_url }}" 
         alt="Foto von Elena" style="width:100%"/>
-    <figurecaption>Während einer Dienstreise an der Paul Sacher Stiftung Basel.
-        Foto von Joachim Veit.</figurecaption>
+    <figurecaption>Während einer Dienstreise an der Paul Sacher Stiftung Basel.</figurecaption>
 </figure>
 
 ## Henze und mein Weg nach Detmold
