@@ -77,7 +77,7 @@ Im Projekt *Henze Digital* ediere ich Korrespondenzen zwischen Henze und
 ausgewählten Briefpartnern seines künstlerischen Netzwerks nach den Richtlinien
 der *Text Encoding Initiative* (TEI). 
 Um diese (für mich neue) Auszeichnungssprache zu erlernen, konnte ich an den 
-TEI-Anfängerkursen  teilnehmen, die im Rahmen der *Edirom Sommer School* 
+TEI-Anfängerkursen  teilnehmen, die im Rahmen der *[Edirom Sommer School](https://ess.upb.de)* 
 2021 organisiert wurden und die sich als unerlässlich erwiesen, um die 
 Arbeit mit Grundkenntnissen beginnen zu können. 
 Die enge Zusammenarbeit mit meinen Kollegen Dennis Ried und Irmlind
