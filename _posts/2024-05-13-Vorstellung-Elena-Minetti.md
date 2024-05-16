@@ -90,12 +90,12 @@ Bislang wurden bereits vier Briefwechsel veröffentlicht, zuletzt die von Irmlin
 Capelle herausgegebene Korrespondenz zwischen [Henze, Grete Weil und Walter 
 Jockisch](https://henze-digital.zenmem.de/de/Briefwechsel/A150009F.html).
 Im Rahmen der Edition habe ich die Korrespondenzen, die nicht in deutscher
-Sprache verfasst wurden, ediert, d.h. die bereits veröffentlichte Korrespondenz
+Sprache verfasst wurden, ediert, d.h. die bereits von uns online veröffentlichte Korrespondenz
 zwischen [Henze und Auden und Kallman](https://henze-digital.zenmem.de/de/Briefwechsel/A150034F.html) 
 (in englischer Sprache) und die Korrespondenz zwischen Henze und Miguel Barnet 
 (in englischer und spanischer Sprache), die demnächst veröffentlicht wird. 
 Die letzte Korrespondenz, an der wir gerade noch arbeiten, wird die 
-zwischen Henze und seinem Mäzen und Widmungsträger Paul Sacher sein.
+zwischen Henze und seinem Mäzen und Auftraggeber Paul Sacher sein.
 Meine Positionierung im Fach Musikwissenschaft ist durch meine bisherigen
 Studien- und Arbeitserfahrungen geprägt. 
 Ich betrachte mich als Musikwissenschaftlerin, die musikalische Akteur:innen,
