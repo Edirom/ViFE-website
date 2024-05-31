@@ -164,3 +164,9 @@ kio:
   end: 2026
   external: true
   logo: https://kreativ.institute/assets/images/kio_logo_long_onwhite.svg
+edirom-online-reloaded:
+  name: Edirom Online Reloaded
+  url: 
+  funder: DFG
+  start: 2024
+  end: 2026

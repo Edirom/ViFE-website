@@ -32,6 +32,7 @@
     - freidi
     - zenmem
     - nfdi
+    - edirom-online-reloaded
   image: /assets/img/team_daniel.jpg
   phone: +49 5231 975-662
 - name: Katharina Bergmann
@@ -71,6 +72,7 @@
   affiliation:
     - dariah
     - bw
+    - edirom-online-reloaded
   image: /assets/img/team_kristin.jpg
 - name: Joachim Veit
   sortkey: Veit
@@ -150,6 +152,7 @@
   email: daniel.jettka@uni-paderborn.de
   affiliation:
     - nfdi
+    - edirom-online-reloaded
   image: /assets/img/team_danielj.png
 - name: Salome Obert
   sortkey: Obert
@@ -163,6 +166,7 @@
   email: hizkiel.alemayehu@uni-paderborn.de
   affiliation:
     - nfdi
+    - edirom-online-reloaded
   image: /assets/img/team_hizkiel.jpg
 - name: Elena Minetti
   sortkey: Minetti
