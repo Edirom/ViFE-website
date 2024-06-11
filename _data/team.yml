@@ -234,12 +234,6 @@
   image: assets/img/team_annaP.jpg
   affiliation:
     - kio
-- name: Anna Maria Matuszewska
-  sortkey: Matuszewska
-  email: anna.matuszewska@uni-paderborn.de
-  image: assets/img/team_annaMaria.jpg
-  affiliation:
-    - kio
 - name: Lisa Rosendahl
   sortkey: Rosendahl
   email: rosendahl@beethovens-werkstatt.de
