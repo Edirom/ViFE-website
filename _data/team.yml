@@ -236,6 +236,7 @@
     - kio
 - name: Lisa Rosendahl
   sortkey: Rosendahl
-  email: rosendahl@beethovens-werkstatt.de
+  email: lisa.rosendahl@adwmainz.de
+  image: assets/img/team_lisa.jpg
   affiliation:
     - tamudi
