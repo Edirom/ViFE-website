@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Tutorials"
+title: "New Tutorials released for the Beethoven Annotator App"
 authors: "Mark Saccomano"
-excerpt: "Tutorials."
+excerpt: "Try out the new step-by-step guide to creating digital annotations on digital resources using MEI and Linked Data."
 teaserImage: "/assets/blog/2024-07-17/teaser.jpg"
 ---
 
