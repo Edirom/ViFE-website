@@ -10,6 +10,6 @@ The online Annotator App developed for the ViFE project [Beethoven in the House]
 
 The project’s core development question was how to create an app that could support annotation of the same passage of music as it appears in different arrangements. The data model created for this task was therefore multilayered, so that musical structures could be captured at varying degrees of scale and at varying levels of abstraction. When it came time to develop a user interface for the prototype app, a certain level of complexity was unavoidable. The researchers wanted to easily confirm that all components were working together as intended. The user interface, therefore, is perhaps not quite as intuitive as one might expect from an app ready for public use. Hence the need for tutorials.
 
-The tutorials are multi-model: They include text, screen captures, graphics, and screencasts. They are in beta version at the moment and posted on the Beethoven in the House website. 
+The tutorials are multi-modal: They include text, screen captures, graphics, and screencasts. They are in beta version at the moment and posted on the Beethoven in the House website. 
 
 [Please try them out](https://domestic-beethoven.eu/tutorials/)! We are actively seeking feedback. Let us know what you think: [info@domestic-beethoven.eu](mailto:info@domestic-beethoven.eu?subject=Domestic%20Beethoven%20Tutorial).
