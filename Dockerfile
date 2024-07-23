@@ -1,17 +1,17 @@
-FROM jekyll/jekyll:builder as builder
+FROM ruby:3 AS builder
 
 ENV WORK_DIR=/var/jekyllbuilder
 ARG BUILD_SCRIPT=build
 
-# since WORKDIR will not honour the USER directive
-# we need to create the directory and set permissions in advance
-RUN mkdir -p ${WORK_DIR} && \
-    chown -R jekyll:jekyll ${WORK_DIR}
-
-# set default jekyll user for building
-USER jekyll:jekyll
 WORKDIR ${WORK_DIR}
-COPY --chown=jekyll . .
+COPY . .
+
+# install dependencies
+RUN apt-get update \
+    && apt-get dist-upgrade -y \
+    && apt-get install -y --no-install-recommends nodejs npm \
+    # clean up apt cache
+    && rm -rf /var/lib/apt/lists/*
 
 # build local
 RUN npm i && \
