@@ -71,7 +71,7 @@ jobs:
   clean:
     name: remove untagged images from Github package registry
     runs-on: ubuntu-latest
-    needs: docker
+    needs: build
     steps:
       - name: Delete Package Versions
         uses: actions/delete-package-versions@v5.0.0
