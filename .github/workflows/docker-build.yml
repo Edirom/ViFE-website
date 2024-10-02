@@ -16,7 +16,7 @@ env:
 
 jobs:
   build:
-
+    name: build the Docker image
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -67,3 +67,16 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           build-args: ${{ contains(github.ref, 'blogpost') && 'BUILD_SCRIPT=build-drafts' || 'BUILD_SCRIPT=build' }}
           labels: ${{ steps.meta.outputs.labels }}
+
+  clean:
+    name: remove untagged images from Github package registry
+    runs-on: ubuntu-latest
+    needs: docker
+    steps:
+      - name: Delete Package Versions
+        uses: actions/delete-package-versions@v5.0.0
+        with:
+          package-name: 'vife-website'
+          package-type: 'container'
+          min-versions-to-keep: 10
+          delete-only-untagged-versions: 'true'
