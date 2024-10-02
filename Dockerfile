@@ -22,7 +22,7 @@ RUN npm i && \
 # nginx
 #################
 FROM nginx:alpine
-LABEL maintainer="Peter Stadler for the ViFE"
+LABEL org.opencontainers.image.authors="Peter Stadler for the ViFE"
 LABEL org.opencontainers.image.source="https://github.com/Edirom/ViFE-website"
 
 COPY --from=builder /var/jekyllbuilder/_site/  /usr/share/nginx/html/
