@@ -7,13 +7,6 @@ on:
   # run on every push to any branch
   push:
 
-env:
-  # Use docker.io for Docker Hub if empty
-  REGISTRY: ghcr.io
-  # github.repository as <account>/<repo>
-  IMAGE_NAME: ${{ github.repository }}
-
-
 jobs:
   build:
     name: build the Docker image
@@ -30,11 +23,11 @@ jobs:
 
       # Login against a Docker registry except on PR
       # https://github.com/docker/login-action
-      - name: Log in to registry ${{ env.REGISTRY }}
+      - name: Log in to Github registry
         if: github.event_name != 'pull_request'
         uses: docker/login-action@v3
         with:
-          registry: ${{ env.REGISTRY }}
+          registry: ghcr.io
           username: vifebot
           password: ${{ secrets.VIFEBOTS_GITHUB_TOKEN }}
       
@@ -52,7 +45,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+            ghcr.io/${{ github.repository }}
             edirom/vife-website
           flavor: |
             latest=${{ github.ref == 'refs/heads/main' }}
@@ -76,7 +69,7 @@ jobs:
       - name: Delete Package Versions
         uses: actions/delete-package-versions@v5.0.0
         with:
-          package-name: 'ViFE-website'
+          package-name: 'vife-website'
           package-type: 'container'
           min-versions-to-keep: 10
           delete-only-untagged-versions: 'true'
