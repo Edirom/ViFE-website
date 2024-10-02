@@ -69,7 +69,7 @@ jobs:
       - name: Delete Package Versions
         uses: actions/delete-package-versions@v5.0.0
         with:
-          package-name: 'vife-website'
+          package-name: 'edirom/vife-website'
           package-type: 'container'
           min-versions-to-keep: 10
           delete-only-untagged-versions: 'true'
