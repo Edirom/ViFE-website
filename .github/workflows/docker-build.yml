@@ -71,6 +71,7 @@ jobs:
       - name: ghcr.io cleanup action
         uses: dataaxiom/ghcr-cleanup-action@v1
         with:
+          package: vife-website
           delete-untagged: true
           dry-run: true
           validate: true
