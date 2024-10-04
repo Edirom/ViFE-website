@@ -3,7 +3,7 @@ layout: post
 title: "Der ViFE stellt sich vor: Agnes Seipelt"
 authors: "Agnes Seipelt"
 excerpt: "ViFE-Mitglied Agnes stellt sich vor und berichtet von ihrem Weg zum ViFE, ihre Arbeit für Beethovens Werkstatt und über ihr Dissertationsprojekt"
-teaserImage: "/assets/blog/2024-10-07/agnes.JPG"
+teaserImage: "/assets/blog/2024-10-10/agnes.JPG"
 ---
 
 Mein Name ist Agnes Seipelt und ich bin seit 2017 offiziell Teil des ViFE. 2009 habe ich in Detmold/Paderborn den Zwei-Fach Bachelor mit den Fächern Musikwissenschaft und Romanistik begonnen, den ich 2014 mit einer Arbeit zu John Adams‘ Orchesterwerk „Harmonielehre“ abschloss. Mein Interesse an (digitaler) Edition und meine ersten Berührungspunkte mit dem ViFE begannen mit einem von Joachim Veit und Stefanie Acquavella-Rauch geleiteten Projektseminar zur Edition der Fiedellieder des Komponisten Carl Louis Bargheer. Die Quellen der Fiedellieder liegen in der Lippischen Landesbibliothek und wurden von den TeilnehmerInnen in Kooperation mit den damaligen MitarbeiterInnen des Edirom Projekts und weiteren ViFEn in eine Hybridedition überführt, die gedruckt im Carus Verlag erschienen sowie online in einer Edirom Anwendung unter  [https://bargheer.edirom.de](https://bargheer.edirom.de/edition/index.html).  
