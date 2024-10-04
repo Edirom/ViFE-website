@@ -3,15 +3,15 @@ layout: post
 title: "Der ViFE stellt sich vor: Agnes Seipelt"
 authors: "Agnes Seipelt"
 excerpt: "ViFE-Mitglied Agnes stellt sich vor und berichtet von ihrem Weg zum ViFE, ihre Arbeit für Beethovens Werkstatt und über ihr Dissertationsprojekt"
-teaserImage: "/assets/blog/2024-10-07/agnes_.png"
+teaserImage: "/assets/blog/2024-10-07/agnes.JPG"
 ---
 
 Mein Name ist Agnes Seipelt und ich bin seit 2017 offiziell Teil des ViFE. 2009 habe ich in Detmold/Paderborn den Zwei-Fach Bachelor mit den Fächern Musikwissenschaft und Romanistik begonnen, den ich 2014 mit einer Arbeit zu John Adams‘ Orchesterwerk „Harmonielehre“ abschloss. Mein Interesse an (digitaler) Edition und meine ersten Berührungspunkte mit dem ViFE begannen mit einem von Joachim Veit und Stefanie Acquavella-Rauch geleiteten Projektseminar zur Edition der Fiedellieder des Komponisten Carl Louis Bargheer. Die Quellen der Fiedellieder liegen in der Lippischen Landesbibliothek und wurden von den TeilnehmerInnen in Kooperation mit den damaligen MitarbeiterInnen des Edirom Projekts und weiteren ViFEn in eine Hybridedition überführt, die gedruckt im Carus Verlag erschienen sowie online in einer Edirom Anwendung unter  [https://bargheer.edirom.de](https://bargheer.edirom.de/edition/index.html).  
 
 
 <figure>
-<img src="{{ '/assets/blog/2024-10-07/agnes.png' | relative_url }}" alt="Agnes Seipelt" style="height: 400px"/>
-<figurecaption>Auf der GfM Tagung in Saarbrücken im Oktober 2023, hochkonzentriert. Normalerweise schaue ich netter.</figurecaption>
+<img src="{{ '/assets/blog/2024-10-07/agnes.JPG' | relative_url }}" alt="Agnes Seipelt" style="height: 400px"/>
+<figurecaption>Auf der GfM-Jahrestagung in Saarbrücken im Oktober 2023, hochkonzentriert. Normalerweise schaue ich netter. Foto: Ran Mo</figurecaption>
 </figure>
 
 Im Masterstudium Musikwissenschaft habe ich den Professionalisierungsbereich „Digitale Edition“ gewählt, wodurch ich durch Seminare und Vorlesungen zu Theorie und Methoden Digitaler Musikwissenschaft und Informatik einen Ein- und Überblick über das Feld bekam. Nebenbei habe ich durch die Arbeit als SHK in Forschungsprojekten wie der Weber Gesamtausgabe und dem Hoftheater Projekt aber die realen Anwendungsfälle und die tägliche Praxis erlebt, was sehr wertvoll war, nicht zu sprechen von den Kontakten zu einigen ViFEn.
@@ -23,5 +23,6 @@ Kurz nach Abschluss meines Masterstudiums habe ich bei Andreas Münzmay als Mita
 
 Noch in meiner Zeit im Bruckner Projekt wurde ich zu einem Arbeitstreffen vom Projekt Beethovens Werkstatt eingeladen, das das Konzept der Harmonischen Analyse im Ramen des 2 Moduls aufgreifen wollte. Nach Ende des Bruckner-Projekts konnte ich dann glücklicherweise direkt bei Beethovens Werkstatt anfangen und habe die Harmonische Analyse (mit einigen Anpassungen und Verbesserungen) mit Hilfe von Johannes Kepper als eine der Perspektiven in der Vide-App von [Modul 2](https://beethovens-werkstatt.de/modul-2/) implementiert. 
 
+Seit 2019 bin ich nun Teil des Detmolder Teams von Beethovens Werkstatt. Das Projekt erforscht kompositorische Denk- und Arbeitsprozesse am Beispiel von Beethoven, wobei die Methoden der genetischen Textkritik weiterentwickelt und gleichzeitig digitale Formen zur Präsentation der Forschungsergebnisse geschaffen werden. Die ursprüngliche, konzeptuelle Aufteilung der Arbeitsstellen in „philologisch“ (Arbeitsstelle Bonn) und „digital/technisch“ (Arbeitsstelle Detmold) ist seit Projektbeginn auf natürliche Weise immer mehr aufgeweicht worden. So werden die, natürlich je nach Modul immer etwas anders gelagerten, Aufgaben wie das Nachdenken über und Konzipieren von unseren Datenmodellen, das Anfertigen von Musikcodierungen mit MEI, philologische Arbeiten wie das Transkribieren von Skizzen und anderen Handschriften, das Konzipieren von Transkriptions- und Codierungsrichtlinien, das Transformieren von Codierungen sowie Korrekturlesearbeiten und das Verfassen von begleitenden Texten von allen MitarbeiterInnen meist gleichermaßen übernommen. 
 
 Daneben beschäftige ich mich im Rahmen meiner Dissertation mit der Bagatelle Nr. 6 aus Op. 126 von Beethoven. Anknüpfend an Konzepte aus der „Werkstatt“ möchte ich eine genetische Edition der Bagatelle erstellen, die Konzepte der Werkstatt nachnutzt, neue Ansätze diskutiert und unterschiedliche Perspektiven auf die Quellen und den Text ermöglicht. Dazu sollen alle Quellen (Skizzen, zwei Werkniederschriften und die Originalausgabe) einschließlich aller Variantenstellen transkribiert und textgenetisch untersucht werden, sodass für die Quellen interne und dokumentübergreifende Text- und Schreibchronologien formuliert werden können, die in einer Darstellung mit den SVG-Shapes auf dem Faksimile verknüpft werden. Darüber hinaus sollen Konzepte für die Verknüpfung bzw. die Beschreibung der Beziehungen der Skizzen und Notate untereinander und zum Werktext modelliert werden. 
