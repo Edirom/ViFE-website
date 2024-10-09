@@ -11,7 +11,7 @@ Mein Name ist Agnes Seipelt und ich bin seit 2017 offiziell Teil des ViFE. 2009 
 
 <figure>
 <img src="{{ '/assets/blog/2024-10-07/agnes.JPG' | relative_url }}" alt="Agnes Seipelt" style="height: 400px"/>
-<figurecaption>Auf der GfM-Jahrestagung in Saarbrücken im Oktober 2023, hochkonzentriert. Normalerweise schaue ich netter. Foto: Ran Mo</figurecaption>
+<figurecaption>Bei der GfM-Jahrestagung in Saarbrücken im Oktober 2023, hochkonzentriert. Normalerweise schaue ich netter. Foto: Ran Mo</figurecaption>
 </figure>
 
 Im Masterstudium Musikwissenschaft habe ich den Professionalisierungsbereich „Digitale Edition“ gewählt, wodurch ich durch Seminare und Vorlesungen zu Theorie und Methoden Digitaler Musikwissenschaft und Informatik einen Ein- und Überblick über das Feld bekam. Nebenbei habe ich durch die Arbeit als Studentische Hilfskraft in Forschungsprojekten wie der Weber Gesamtausgabe und dem Hoftheater Projekt aber die realen Anwendungsfälle und die tägliche Praxis erlebt, was sehr wertvoll war, nicht zu sprechen von den Kontakten zu einigen ViFEn.
