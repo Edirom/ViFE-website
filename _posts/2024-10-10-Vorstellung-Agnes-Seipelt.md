@@ -10,7 +10,8 @@ Mein Name ist Agnes Seipelt und ich bin seit 2017 offiziell Teil des ViFE. 2009 
 
 
 <figure>
-<img src="{{ '/assets/blog/2024-10-07/agnes.JPG' | relative_url }}" alt="Agnes Seipelt" style="height: 400px"/>
+<img src="{{ '/assets/blog/2024-10-10/agnes.JPG' | relative_url }}" alt="Agnes Seipelt" style="height: 400px"/>
+<br/>
 <figurecaption>Bei der GfM-Jahrestagung in Saarbrücken im Oktober 2023, hochkonzentriert. Normalerweise schaue ich netter. Foto: Ran Mo</figurecaption>
 </figure>
 
