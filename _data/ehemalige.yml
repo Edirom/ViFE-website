@@ -27,3 +27,8 @@
   sortkey: Dabbert
   affiliation:
     - textgrid
+- name: Lena Frömmel
+  sortkey: Frömmel
+  image: /assets/img/team_lena.jpg
+  affiliation:
+    - openedirom
