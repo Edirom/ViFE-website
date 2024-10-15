@@ -131,6 +131,7 @@
   email: mark.saccomano@uni-paderborn.de
   affiliation:
     - bith
+    - kio
   image: /assets/img/team_mark.jpg
   phone: +49 5231 975–669
 - name: Agnes Seipelt
@@ -167,6 +168,7 @@
   affiliation:
     - nfdi
     - edirom-online-reloaded
+    - korngold
   image: /assets/img/team_hizkiel.jpg
 - name: Elena Minetti
   sortkey: Minetti
@@ -211,17 +213,13 @@
   phone: +49 5231 975-662
   email: dunja.jeske@hfm-detmold.de
   image: /assets/img/team_dunja.jpg
-- name: Lena Frömmel
-  sortkey: Frömmel
-  email: froemmel@campus.uni-paderborn.de
-  image: /assets/img/team_lena.jpg
-  affiliation:
-    - openedirom
 - name: Tobias Bachmann
   sortkey: Bachmann
   image: /assets/img/team_tobias.jpg
   affiliation:
     - openedirom
+    - kio
+    - tamudi
 - name: Henner Drewes
   sortkey: Drewes
   email: henner.drewes@uni-paderborn.de
