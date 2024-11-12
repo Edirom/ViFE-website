@@ -205,6 +205,7 @@
 - name: Dennis Friedl
   sortkey: Friedl
   email: dennis.friedl@uni-paderborn.de
+  orcid: 0009-0000-4410-4627
   affiliation:
     - korngold
   image: /assets/img/team_dfriedl.png
