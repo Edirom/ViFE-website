@@ -179,8 +179,8 @@
   image: /assets/img/team_elenaM.jpg
 - name: Dennis Ried
   sortkey: Ried
-  email: dennis.ried@uni-paderborn.de
-  phone: +49 5231 975-854
+  email: info@dennisried.de
+  orcid: 0000-0001-5545-2088
   affiliation:
     - henze
   image: /assets/img/team_dennis.jpg
