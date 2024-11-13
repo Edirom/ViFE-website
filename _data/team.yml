@@ -6,13 +6,13 @@
   image: /assets/img/team_martin.jpeg
 - name: Irmlind Capelle
   sortkey: Capelle
+  orcid: 0000-0001-8897-2880
   email: irmlind.capelle@upb.de
   affiliation:
     - hoftheater
     - dfg-viewer
     - henze
   image: /assets/img/team_irmlind.jpg
-  phone: +49 5231 975–665
 - name: Benjamin Wolff Bohl
   sortkey: Bohl
   email: bohl@edirom.de
