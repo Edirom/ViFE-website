@@ -74,3 +74,7 @@ copy_to_dest:
 #    target: assets/js/
 #  - source: node_modules/jquery/dist/jquery.min.js
 #    target: assets/js/
+
+collections:
+  gsoc:
+    output: false

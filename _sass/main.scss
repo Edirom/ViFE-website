@@ -150,3 +150,16 @@ figure {
         font-style: italic;
     }
 }
+
+.gsoc {
+    h2 {
+        text-align: center;
+        margin-top: 2ex;
+    }
+    .gsoc-idea-head {
+        p {
+            margin-bottom: 0;
+        }
+        margin-bottom: $spacer;
+    }
+}
