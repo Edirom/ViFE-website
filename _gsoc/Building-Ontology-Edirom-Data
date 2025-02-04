@@ -1,4 +1,15 @@
-# GSOC Idea: Building Ontology for Edirom Data
+---
+title: Building Ontology for Edirom Data
+mentors:  
+  - name: Hizkiel Mitiku Alemayehu
+skills: 
+  - SPARQL
+  - Linked Data
+  - Python
+forum: https://chat.edirom.de/gsoc
+est_project_length: 90 hours
+difficulty: medium
+---
 
 [Edirom-Online](https://github.com/Edirom/Edirom-Online) is a software for presenting and analyzing critical musical editions in a digital format, particularly in **musicology** and **philology**. It supports various data formats commonly used in digital humanities, such as **TEI** (Text Encoding Initiative) for textual data and **MEI** (Music Encoding Initiative) for musical data, visualized with **Verovio**. This enables integration of different data formats, initially including texts, images, and music, and later expanding to audio and film within a single edition.
 
@@ -27,16 +38,5 @@ To get started with this project, complete the following tasks:
    - [Introduction to Linked Data](https://www.w3.org/wiki/LinkedData)  
    - [SPARQL 1.1 Query Language](https://www.w3.org/TR/sparql11-query/)  
 
-## Mentor
-**Hizkiel Mitiku Alemayehu**  
-
-## Project Size
-**90 hours**  
-
 ## Keywords
-**Ontologies, Linked Data, SPARQL, Open Source**  
-
-## Skills Required
-- **SPARQL**
-- **Linked Data**
-- **Python**
+**Ontologies, Linked Data, SPARQL, Open Source**
