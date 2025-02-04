@@ -3,6 +3,8 @@ title: Integration of 3D objects and 3D viewer in Edirom Online
 mentors:  
   - name: Daniel
     github: roewenstrunk
+  - name: Dennis
+    github: DennisFriedl
 skills: 
   - Javascript
   - XQuery
