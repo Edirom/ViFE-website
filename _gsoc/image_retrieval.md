@@ -1,7 +1,7 @@
 ---
 title: Implement image retrieval algorithm for printed text and musical sheets 
 mentors:  
-  - name: Dennis
+  - name: Dennis Friedl
     github: DennisFriedl
 skills: 
   - JavaScript
@@ -15,3 +15,9 @@ Scholarly music editions are increasingly being published in a hybrid format. Wh
 To achieve this, a lightweight, resource-efficient image retrieval algorithm is required—ideally one that can run on a user’s mobile device (using web technologies) or on a remote server. The algorithm should be able to compare a captured image against a database of several thousand pages. While solutions for image retrieval via hashing/fingerprinting already exist, this task poses two primary challenges:
 1. Pages containing text or musical notation often have very similar layouts and may differ only in a few measures or notes, making it easy for a typical low-resolution hashing procedure to miss these subtle distinctions.
 2. Because users take photos under real-world conditions, the images are likely to be imperfect (e.g., poorly lit or misaligned) and may include more than just the page content.
+
+#### Goal
+
+#### Impact
+
+#### Warm-up Tasks

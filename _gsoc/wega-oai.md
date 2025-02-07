@@ -1,9 +1,9 @@
 ---
 title: Develop an OAI-PMH API for the WeGA-WebApp 
 mentors:  
-  - name: Peter
+  - name: Peter Stadler
     github: peterstadler
-  - name: Dennis
+  - name: Dennis Ried
     github: riedde
 skills: 
   - XQuery
@@ -42,6 +42,12 @@ the broader API ecosystem of the WeGA-WebApp.
 The task should also include testing the implementation for compliance with 
 the OAI-PMH standard and documenting the API endpoints, including their 
 functionality and expected parameters, for internal and external users.
+
+#### Goal
+
+#### Impact
+
+#### Warm-up Tasks
 
 [WeGA-WebApp]: https://github.com/Edirom/WeGA-WebApp
 [OAI-PMH]: https://www.openarchives.org/pmh/

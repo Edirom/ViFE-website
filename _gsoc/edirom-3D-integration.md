@@ -1,9 +1,9 @@
 ---
 title: Integration of 3D objects and 3D viewer in Edirom Online 
 mentors:  
-  - name: Daniel
+  - name: Daniel Röwenstrunk
     github: roewenstrunk
-  - name: Dennis
+  - name: Dennis Friedl
     github: DennisFriedl
 skills: 
   - Javascript
@@ -35,6 +35,12 @@ metadata of 3D objects and 3D objects themselves. The web component
 the front end. The integration is then essentially limited to the introduction 
 of a new object type. The other object types can serve as a template for all 
 tasks.
+
+#### Goal
+
+#### Impact
+
+#### Warm-up Tasks
 
 [Edirom-Online]: https://github.com/Edirom/Edirom-Online
 [Kompakkt-StandaloneViewer]: https://github.com/Kompakkt/StandaloneViewer
