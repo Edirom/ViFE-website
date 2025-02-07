@@ -61,30 +61,35 @@ body > .container {
     color: #ffffff;
 }
 
-.nav-pills > li > a {
-    border-radius: 4px;
-    &:hover {
-        background-color: #eee;
-    }
-}
+.topnav {
+    .nav-pills > li > a {
+        border-radius: 4px;
+        width: 120px;
 
-.nav-pills > li.active > a {
-    background-image: -moz-linear-gradient(top,#337ab7,#539ad7);
-    background-image: -webkit-linear-gradient(top,#135a97,#337ab7); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
-    background-image:         linear-gradient(to bottom,#135a97,#337ab7); /* Chrome 26, Firefox 16+, IE 10+, Opera */
-    color: white;
+        &:hover {
+            background-color: #eee;
+        }
+    }
+
+    .nav-pills > li.active > a {
+        background-image: -moz-linear-gradient(top, #337ab7, #539ad7);
+        background-image: -webkit-linear-gradient(top, #135a97, #337ab7); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+        background-image: linear-gradient(to bottom, #135a97, #337ab7); /* Chrome 26, Firefox 16+, IE 10+, Opera */
+        color: white;
+    }
 }
 
 .vife_icon {
     text-align: center;
-    font-size: 2em;  
-    height: 90px; 
-    padding: 10px;     
+    font-size: 2em;
+    height: 90px;
+    padding: 10px;
 }
 
 .vife_iconText {
     display: block;
-    margin: 20px 20px 10px;
+    margin-top: 2ex;
+    /* margin: 20px 20px 10px; */
     font-size: 16px;
 }
 
