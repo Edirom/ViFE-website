@@ -9,7 +9,7 @@ title: Team
     <div class="col my-3">
         <div class="card vife_teamMember">
             {% if member.image %}
-            <img src="{{ member.image | relative_url }}" class="card-img-top p-4" alt="{{ member.name }}" />
+            <img src="{{ member.image | relative_url }}" class="card-img-top mx-auto d-block p-4" alt="{{ member.name }}"/>
             {% endif %}
             <div class="card-body">
                 <h3 class="card-title">{{ member.name }}</h3>
@@ -54,9 +54,9 @@ title: Team
     {% for member in members %}
     <div class="col my-3">
         <div class="card vife_alumni">
-            {% if member.image %}
+            <!-- {% if member.image %}
             <img src="{{ member.image | relative_url }}" class="card-img-top p-4" alt="{{ member.name }}" />
-            {% endif %}
+            {% endif %}-->
             <div class="card-body">
                 <h3 class="card-title">{{ member.name }}</h3>
                 <p class="card-text">
