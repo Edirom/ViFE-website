@@ -1,8 +1,6 @@
 ---
 title: Building a Knowledge graph for Edirom Data
-mentors:  
-  - name: Salome Obert
-    github: obertsalome
+mentors:
   - name: Tobias Bachmann
     github: feuerbart
 skills: 
