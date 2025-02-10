@@ -224,6 +224,7 @@
   image: /assets/img/team_dunja.jpg
 - name: Tobias Bachmann
   sortkey: Bachmann
+  email: tobias.bachmann@uni-paderborn.de
   image: /assets/img/team_tobias.jpg
   affiliation:
     - openedirom
