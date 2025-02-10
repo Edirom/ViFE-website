@@ -3,6 +3,8 @@ title: Implement image retrieval algorithm for printed text and musical sheets
 mentors:  
   - name: Dennis Friedl
     github: DennisFriedl
+  - name: Peter Stadler
+    github: peterstadler
 skills: 
   - JavaScript
   - Python
