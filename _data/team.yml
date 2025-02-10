@@ -1,5 +1,6 @@
 - name: Martin Albrecht-Hohmaier
   sortkey: Albrecht-Hohmaier
+  orcid: 0000-0002-5279-7408
   email: martin.albrecht.hohmaier@uni-paderborn.de
   affiliation:
     - nfdi
@@ -27,6 +28,7 @@
 - name: Daniel Röwenstrunk
   sortkey: Röwenstrunk
   email: roewenstrunk@uni-paderborn.de
+  orcid: 0000-0001-6271-2095
   affiliation:
     - edirom
     - freidi
@@ -38,6 +40,7 @@
 - name: Katharina Bergmann
   sortkey: Bergmann
   email: katharina.bergmann@uni-paderborn.de
+  orcid: 0000-0002-0758-9917
   affiliation:
     - nfdi
   image: /assets/img/team_katharina.jpg
@@ -102,6 +105,7 @@
   phone: +49 5231 975–669
 - name: Kristina Richts-Matthaei
   sortkey: Richts
+  orcid: 0000-0001-8569-1995
   email: kristina.richts@uni-paderborn.de
   affiliation:
     - mei
@@ -111,6 +115,7 @@
   phone: +49 5231 975–665
 - name: Andreas Münzmay
   sortkey: Münzmay
+  orcid: 0000-0002-8373-4055
   email: andreas.muenzmay@upb.de
   affiliation:
     - zenmem
@@ -121,6 +126,7 @@
   phone: +49 5231 975–672
 - name: Anastasia Wawilow
   sortkey: Wawiliow
+  orcid: 0000-0003-2840-128X
   email: anastasia.wawilow@upb.de
   affiliation:
     - zenmem
@@ -145,15 +151,16 @@
   image: /assets/img/team_agnes.jpeg
 - name: Anne Ferger
   sortkey: Ferger
+  orcid: 0000-0002-1382-2658
   email: anne.ferger@uni-paderborn.de
   affiliation:
     - nfdi
   image: /assets/img/team_anne.jpg
 - name: Daniel Jettka
   sortkey: Jettka
+  orcid: 0000-0002-2375-2227
   email: daniel.jettka@uni-paderborn.de
   affiliation:
-    - nfdi
     - edirom-online-reloaded
   image: /assets/img/team_danielj.png
 - name: Salome Obert
