@@ -46,7 +46,7 @@ functionality and expected parameters, for internal and external users.
 
 #### Impact
 
-THe project would significantly enhance the accessibility, interoperability, and
+The project would significantly enhance the accessibility, interoperability, and
 discoverability of all digital editions served by the WeGA-WebApp, enabling
 the project to reach larger academic and cultural audiences.
 
