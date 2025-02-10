@@ -7,7 +7,7 @@ skills:
   - Selenium
   - JavaScript
   - CI/CD
-forum: https://chat.edirom.de/gsoc
+forum: https://matrix.to/#/#gsoc-public:edirom.de
 est_project_length: 350 hours
 difficulty: medium
 ---

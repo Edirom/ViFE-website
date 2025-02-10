@@ -9,7 +9,7 @@ skills:
   - Javascript
   - XQuery
   - REST APIs
-forum: https://chat.edirom.de/gsoc
+forum: https://matrix.to/#/#gsoc-public:edirom.de
 est_project_length: 175 hours
 difficulty: medium
 ---

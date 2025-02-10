@@ -22,7 +22,14 @@ title: Google Summer of Code ideas list
             </p>
             <p><strong>Estimated Project Length:</strong> {{ idea.est_project_length }}</p>
             <p><strong>Difficulty:</strong> {{ idea.difficulty }}</p>
-            <p><strong>Matrix room for discussion:</strong> {{ idea.forum }}</p>
+            <p><strong>Matrix room for discussion:</strong>
+                {% if idea.forum contains "https://matrix.to/#/#" %}
+                <a href="{{ idea.forum }}"> {{ idea.forum | replace:
+                    "https://matrix.to/#/#", ""  }}</a>
+                {% else %}
+                {{ idea.forum }}
+                {% endif %}
+            </p>
             <p><strong>Keywords:</strong>
                 {% for keyword in idea.keywords %}
                 {{ keyword }}{% unless forloop.last %}, {% endunless %}
