@@ -30,6 +30,10 @@ title: Team
                     <a href="{{ entry.url }}">{{ entry.name }}</a>{% if forloop.last %}{% else %}, {% endif %}
                     {% endfor %}
                     {% endif %}
+                    {% if member.orcid %}
+                    <i class="vife_contact_icon fa fa-orcid"></i>
+                    <a href="https://orcid.org/{{ member.orcid }}">{{ member.orcid }}</a><br />
+                    {% endif %}
                 </p>
             </div>
 
