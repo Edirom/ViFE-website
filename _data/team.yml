@@ -247,3 +247,7 @@
   image: assets/img/team_lisa.jpg
   affiliation:
     - tamudi
+- name: Silke Reich
+  sortkey: Reich
+  affiliation:
+    - korngold
