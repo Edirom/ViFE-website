@@ -61,7 +61,7 @@ of editions, as relevant media types are supported.
 #### Warm-up Tasks
 
 1. **Get familiar with Edirom Online**
-  * Have a l0ok at [Weber Clarinett Quintett] edition in Edirom Online
+  * Have a look at [Weber Clarinett Quintett] edition in Edirom Online
 2. **Have a look at Kompakkt and 3D objects in humanities**
 3. **Get familiar with XQuery and OpenAPI**
 
