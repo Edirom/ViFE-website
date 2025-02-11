@@ -1,5 +1,5 @@
 ---
-title: Building a Knowledge graph for Edirom Data
+title: Building a Knowledge Graph for Edirom Data
 mentors:
   - name: Tobias Bachmann
     github: feuerbart
