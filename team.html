@@ -14,13 +14,17 @@ title: Team
             <div class="card-body">
                 <h3 class="card-title">{{ member.name }}</h3>
                 <p class="card-text">
+                    {% if member.email %}
+                    <i class="vife_contact_icon fa fa-envelope"></i>
+                    <span>{{ member.email }}</span><br />
+                    {% endif %}
                     {% if member.phone %}
                     <i class="vife_contact_icon fa fa-phone"></i>
                     <a href="tel:{{ member.phone }}">{{ member.phone }}</a><br />
                     {% endif %}
-                    {% if member.email %}
-                    <i class="vife_contact_icon fa fa-envelope"></i>
-                    <span>{{ member.email }}</span><br />
+                    {% if member.orcid %}
+                    <i class="vife_contact_icon fa orcid_icon"></i>
+                    <a href="https://orcid.org/{{ member.orcid }}">{{ member.orcid }}</a><br />
                     {% endif %}
                     {% if member.affiliation %}
                     <i class="vife_contact_icon fa fa-globe"></i>
