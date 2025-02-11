@@ -23,7 +23,8 @@ keywords:
   - Kompakkt
   - Open Source
   - XQuery
-  ---
+---
+
 
 [Edirom Online] is a software for the presentation and analysis of critical 
 musical editions in a digital format, particularly in the fields of musicology 
