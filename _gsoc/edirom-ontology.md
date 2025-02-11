@@ -1,8 +1,8 @@
 ---
 title: Building a Knowledge Graph for Edirom Data
 mentors:
-  - name: Tobias Bachmann
-    github: feuerbart
+  - name: Hizkiel Alemayehu
+    github: hizclick
 skills: 
   - SPARQL
   - Linked Data
