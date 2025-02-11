@@ -8,8 +8,15 @@ skills:
   - JavaScript
   - CI/CD
 forum: https://matrix.to/#/#gsoc-public:edirom.de
-est_project_length: 350 hours
-difficulty: medium
+est_project_length: 120 hours
+difficulty: easy
+keywords:
+   - Testing
+   - User interface
+   - CI/CD pipelines
+   - JavaScript
+   - Musicology
+   - Editions
 ---
 
 [Edirom-Online] is a software for the presentation and analysis of critical musical editions in a digital format, particularly in the fields of musicology and philology. Edirom-Online supports various data formats commonly used in digital humanities, such as [TEI] (Text Encoding Initiative) for textual data and [MEI] (Music Encoding Initiative) for musical data. This allows for the integration of different data formats, starting in the early days with texts, images and music and adding audio and even film within a single edition. The Edirom idea was born in 2004 at Musikwissenschaftliches Seminar Detmold/Paderborn and even after several years of Edirom development, the success of Edirom based on the same core concepts as in the beginning continues with numerous projects using and developing Edirom tools and creating digital musical editions with this software.
