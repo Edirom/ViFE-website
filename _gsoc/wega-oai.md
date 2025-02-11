@@ -26,7 +26,7 @@ keywords:
 The [WeGA-WebApp] drives the publication of the digital edition of 
 Carl Maria von Weber's letters, diaries and writings–and much more. 
 While there are already various interfaces to interact with the WeGA-WebApp an 
-[OAI-PMH] (Open Archives Initiative Protocol for Metadata Harvesting) API 
+API for [OAI-PMH] (Open Archives Initiative Protocol for Metadata Harvesting)
 is still missing.
 Because the OAI-PMH standard is a widely-used protocol that allows 
 repositories to expose structured metadata for harvesting by external 
