@@ -161,6 +161,7 @@
   orcid: 0000-0002-2375-2227
   email: daniel.jettka@uni-paderborn.de
   affiliation:
+    - nfdi
     - edirom-online-reloaded
   image: /assets/img/team_danielj.png
 - name: Salome Obert
