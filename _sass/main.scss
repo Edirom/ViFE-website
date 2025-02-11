@@ -118,7 +118,17 @@ a.vife_werkzeuge2 {
     height: 30px;
 }
 
-.vife_teamMember, .vife_alumni, .vife_project, .tool {
+.vife_teamMember, .vife_alumni{
+    img {
+      width: 250px;
+      height: 250px;
+      filter: grayscale(100%);
+      object-fit: cover;
+      border-radius: 300px;
+    }
+} 
+
+.vife_project, .tool {
     img {
         max-height: 250px;
         object-fit: contain;
@@ -167,4 +177,13 @@ figure {
         }
         margin-bottom: $spacer;
     }
+}
+
+.orcid_icon {
+    background-image: url('/assets/img/ORCID-iD_icon_unauth_BW_vector.svg');
+    background-size: 16px 16px;
+    width: 16px;
+    height: 16px;
+    margin-bottom: 3px;
+    vertical-align: middle;
 }
