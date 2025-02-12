@@ -11,7 +11,7 @@ Google Summer of Code (GSoC) is an international program where Google provides s
 Vife is excited to participate in GSoC for the first time this year! 🎉  
 
 - Explore our **[project ideas](https://edirom.de/gsoc.html)**.  
-- Connect with our **mentors** and join the discussion in our **group channel** [gsoc-public:edirom.de].  
-- Need help writing a great proposal? Check out our **[proposal guidelines](here)**.  
+- Connect with our **mentors** and join the discussion in our **[group channel](https://matrix.to/#/#gsoc-public:edirom.de)**.  
+- Need help writing a great proposal? Check out our **[proposal guidelines](https://edirom.de/contributerguide.html)**.  
 
 We look forward to your contributions—let’s build something amazing together!  
