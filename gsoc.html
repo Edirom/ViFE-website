@@ -5,6 +5,7 @@ title: Google Summer of Code Ideas List
 
 <div class="gsoc">
     <h2>{{ page.title }}</h2>
+    <p style="font-size: 1.4em; font-style: italic; margin-top: 30px; text-align: center;">Please refer to our <a href="https://edirom.de/contributerguide.html">Contributor Guidelines</a>!</p>
     {% for idea in site.gsoc %}
     <div class="row row-cols-1">
         <h3>{{ idea.title }}</h3>
@@ -25,7 +26,7 @@ title: Google Summer of Code Ideas List
             <p><strong>Matrix room for discussion:</strong>
                 {% if idea.forum contains "https://matrix.to/#/#" %}
                 <a href="{{ idea.forum }}"> {{ idea.forum | replace:
-                    "https://matrix.to/#/#", ""  }}</a>
+                    "https://matrix.to/#/#", "" }}</a>
                 {% else %}
                 {{ idea.forum }}
                 {% endif %}
