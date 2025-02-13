@@ -12,6 +12,6 @@ Vife is excited to participate in GSoC for the first time this year! 🎉
 
 - Explore our **[project ideas](https://edirom.de/gsoc.html)**.  
 - Connect with our **mentors** and join the discussion in our **[group channel](https://matrix.to/#/#gsoc-public:edirom.de)**.  
-- Need help writing a great proposal? Check out our **[proposal guidelines](https://edirom.de/contributerguide.html)**.  
+- Need help writing a great proposal? Check out our **[Contributor's Guide]({{'/contributerguide.html'  | relative_url }})**.  
 
 We look forward to your contributions—let’s build something amazing together!  
