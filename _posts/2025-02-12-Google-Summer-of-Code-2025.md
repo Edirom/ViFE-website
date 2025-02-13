@@ -8,7 +8,7 @@ teaserImage: "/assets/blog/2025-02-12/gsoc.png"
 
 Google Summer of Code (GSoC) is an international program where Google provides stipends to contributors who complete open-source software projects during the summer.  
 
-Vife is excited to participate in GSoC for the first time this year! 🎉  
+ViFE is excited to apply for GSoC for the first time this year! 🎉  
 
 - Explore our **[project ideas](https://edirom.de/gsoc.html)**.  
 - Connect with our **mentors** and join the discussion in our **[group channel](https://matrix.to/#/#gsoc-public:edirom.de)**.  
