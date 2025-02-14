@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google Summer of Code 2025 – Join ViFe! 🚀"
+title: "Google Summer of Code 2025 – Join ViFE! 🚀"
 authors: "Hizkiel Alemayehu"
 excerpt: "Google Summer of Code (GSoC) is an international program where Google provides stipends to contributors who complete open-source software projects during the summer."
 teaserImage: "/assets/blog/2025-02-12/gsoc.png"
