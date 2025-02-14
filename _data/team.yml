@@ -232,6 +232,7 @@
 - name: Tobias Bachmann
   sortkey: Bachmann
   email: tobias.bachmann@uni-paderborn.de
+  orcid: 0009-0003-9952-7899
   image: /assets/img/team_tobias.jpg
   affiliation:
     - openedirom
