@@ -260,5 +260,8 @@
     - tamudi
 - name: Silke Reich
   sortkey: Reich
+  email: s.reich@em.uni-frankfurt.de
+  orcid: 0009-0007-8817-0299
+  image: assets/img/team_silke.jpg
   affiliation:
     - korngold
