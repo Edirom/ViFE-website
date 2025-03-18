@@ -265,3 +265,10 @@
   image: assets/img/team_silke.jpg
   affiliation:
     - korngold
+- name: Leonie Hofstetter
+  sortkey: Hofstetter
+  email: leonie.hofstetter@uni-paderborn.de
+  orcid: 0009-0001-0040-1838 
+  image: assets/img/team_leonie.png
+  affiliation:
+    - nfdi
