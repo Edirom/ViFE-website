@@ -16,6 +16,3 @@
 - name: Blog
   link: /blog.html
   glyph: rss
-- name: GSoC
-  link: /gsoc.html
-  img: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Google_Summer_of_Code_sun_logo_2022.svg/240px-Google_Summer_of_Code_sun_logo_2022.svg.png
