@@ -274,3 +274,10 @@
   image: assets/img/team_leonie.png
   affiliation:
     - nfdi
+- name: Steffen Astheimer
+  sortkey: Astheimer
+  email: steffen.astheimer@uni-paderborn.de
+  orcid: 0009-0004-5138-1314
+  image: assets/img/team_steffen.png
+  affiliation:
+    - wega
