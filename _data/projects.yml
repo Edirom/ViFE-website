@@ -4,7 +4,7 @@ nfdi:
   funder: BMBF
   start: 2020
   end: 2025
-  logo: https://nfdi4culture.de/typo3conf/ext/culture_portal/Resources/Public/Build/images/n4c-logo-black.4b9cb10d.svg
+  logo: https://nfdi4culture.de/typo3temp/assets/build/images/n4c-logo-black.4b9cb10d.svg
 edirom:
   name: Edirom
   url: https://edirom.de/edirom-projekt/
@@ -115,6 +115,7 @@ bazga:
   start: 2016
   end: 2041
   external: true
+  logo: https://zimmermann-gesamtausgabe.de/apps/bazga-data/bazga-coreData/images/BAZ-GA-Schriftzug_oben.png
 korngold:
   name: Erich Wolfgang Korngold Werkausgabe
   url: https://korngold-werkausgabe.de/
@@ -129,7 +130,6 @@ cdmd:
   funder: AdW Mainz
   start: 2020
   external: true
-  logo: https://cdmd.adwmainz.net/images/CDMD_Logo_grand_black_cut.svg
 textplus:
   name: Text+ – Sprach- und textbasierte Forschungsdateninfrastruktur
   url: https://www.text-plus.org/
@@ -137,6 +137,7 @@ textplus:
   start: 2021
   end: 2026
   external: true
+  logo: https://text-plus.org/text-plus-logo.svg
 hdv:
   name: Das Handwerk des Verlegers
   url: https://hdv-beethoven.de/
