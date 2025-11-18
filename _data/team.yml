@@ -282,3 +282,10 @@
   image: assets/img/team_steffen.png
   affiliation:
     - wega
+- name: Max Greshake
+  sortkey: Greshake
+  email: greshake@beethovens-werkstatt.de
+  orcid: 0009-0009-4809-2956
+  phone: +49 (0)228 98175-69
+  affiliation:
+    - bw
