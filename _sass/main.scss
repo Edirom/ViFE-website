@@ -179,8 +179,13 @@ figure {
     }
 }
 
-.orcid_icon {
-    background-image: url('/assets/img/ORCID-iD_icon_unauth_BW_vector.svg');
+.orcid_icon, .matrix_icon {
+    &.orcid_icon {
+      background-image: url('/assets/img/ORCID-iD_icon_unauth_BW_vector.svg');
+    }
+    &.matrix_icon {
+      background-image: url('/assets/img/matrix-logo.svg');
+    }
     background-size: 16px 16px;
     width: 16px;
     height: 16px;

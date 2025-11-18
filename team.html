@@ -26,9 +26,12 @@ title: Team
                     <i class="vife_contact_icon fa orcid_icon"></i>
                     <a href="https://orcid.org/{{ member.orcid }}">{{ member.orcid }}</a><br />
                     {% endif %}
+                    {% if member.matrix %}
+                    <i class="vife_contact_icon fa matrix_icon"></i>
+                    <a href="https://matrix.to/#/{{ member.matrix }}">{{ member.matrix }}</a><br />
+                    {% endif %}
                     {% if member.affiliation %}
                     <i class="vife_contact_icon fa fa-globe"></i>
-                    <!-- <a href="https://www.muwi-detmold-paderborn.de/forschung/nfdi4culture" target="_blank">NFDI4Culture</a> -->
                     {% for affiliation in member.affiliation %}
                     {% assign entry = site.data.projects[affiliation] %}
                     <a href="{{ entry.url }}">{{ entry.name }}</a>{% if forloop.last %}{% else %}, {% endif %}
