@@ -204,7 +204,7 @@
   image: /assets/img/team_janpeter.jpeg
 - name: Richard Sänger
   sortkey: Sänger
-  phone: +49 (0)228 98175-89
+  phone: +49 228 98175-89
   email: saenger@beethovens-werkstatt.de
   orcid: 0009-0002-8649-543X
   affiliation:
@@ -212,7 +212,7 @@
   image: /assets/img/team_richard.jpg
 - name: Susanne Cox
   sortkey: Cox
-  phone: +49 (0)228 98175-69
+  phone: +49 228 98175-69
   email: cox@beethovens-werkstatt.de
   orcid: 0009-0002-3252-0986
   affiliation:
@@ -253,7 +253,7 @@
     - kio
 - name: Lisa Rosendahl
   sortkey: Rosendahl
-  phone: +49 (0)228 98175-89
+  phone: +49 228 98175-89
   email: rosendahl@beethovens-werkstatt.de
   orcid: 0000-0002-4826-4553
   image: assets/img/team_lisa.jpg
@@ -287,6 +287,6 @@
   sortkey: Greshake
   email: greshake@beethovens-werkstatt.de
   orcid: 0009-0009-4809-2956
-  phone: +49 (0)228 98175-69
+  phone: +49 228 98175-69
   affiliation:
     - bw
