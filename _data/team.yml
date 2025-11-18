@@ -2,6 +2,7 @@
   sortkey: Albrecht-Hohmaier
   orcid: 0000-0002-5279-7408
   email: martin.albrecht.hohmaier@uni-paderborn.de
+  matrix: "@mah:edirom.de"
   affiliation:
     - nfdi
   image: /assets/img/team_martin.jpeg
@@ -9,6 +10,7 @@
   sortkey: Capelle
   orcid: 0000-0001-8897-2880
   email: irmlind.capelle@upb.de
+  matrix: "@icapelle:edirom.de"
   affiliation:
     - hoftheater
     - dfg-viewer
@@ -18,6 +20,7 @@
   sortkey: Bohl
   email: bohl@edirom.de
   orcid: 0000-0001-7217-9167
+  matrix: "@b.w.bohl:edirom.de"
   affiliation:
     - hoftheater
     - edirom
@@ -30,6 +33,7 @@
   sortkey: Röwenstrunk
   email: roewenstrunk@uni-paderborn.de
   orcid: 0000-0001-6271-2095
+  matrix: "@roewenstrunk:edirom.de"
   affiliation:
     - edirom
     - freidi
@@ -42,12 +46,14 @@
   sortkey: Bergmann
   email: katharina.bergmann@uni-paderborn.de
   orcid: 0000-0002-0758-9917
+  matrix: "@k.bergmann:edirom.de"
   affiliation:
     - nfdi
   image: /assets/img/team_katharina.jpg
 - name: Johannes Kepper
   sortkey: Kepper
   email: kepper@edirom.de
+  matrix: "@kepper:edirom.de"
   affiliation:
     - edirom
     - bw
@@ -57,6 +63,7 @@
 - name: Nikolaos Beer
   sortkey: Beer
   email: nikolaos.beer@uni-paderborn.de
+  matrix: "@nbeer:edirom.de"
   affiliation:
     - rwa
     - opera
@@ -68,11 +75,13 @@
   email: vgrund@mail.uni-paderborn.de
   image: /assets/img/team_vera.png
   phone: +49 5231 975-671
+  matrix: "@vera.grund:academiccloud.de"
   affiliation:
     - tamudi
 - name: Kristin Herold
   sortkey: Herold
   email: kristin.herold@uni-paderborn.de
+  matrix: "@kristin:edirom.de"
   affiliation:
     - dariah
     - bw
@@ -81,6 +90,7 @@
 - name: Joachim Veit
   sortkey: Veit
   email: veit@weber-gesamtausgabe.de
+  matrix: "@jveit:edirom.de"
   affiliation:
     - wega
     - zenmem
@@ -91,6 +101,7 @@
   sortkey: Stadler
   email: stadler@edirom.de
   orcid: 0000-0002-2544-1481
+  matrix: "@pstadler:edirom.de"
   affiliation:
     - edirom
     - wega
@@ -109,6 +120,7 @@
   sortkey: Richts
   orcid: 0000-0001-8569-1995
   email: kristina.richts@uni-paderborn.de
+  matrix: "@krichts:edirom.de"
   affiliation:
     - mei
     - hoftheater
@@ -119,6 +131,7 @@
   sortkey: Münzmay
   orcid: 0000-0002-8373-4055
   email: andreas.muenzmay@upb.de
+  matrix: "@amuenzmay:edirom.de"
   affiliation:
     - zenmem
     - bw
@@ -130,6 +143,7 @@
   sortkey: Wawiliow
   orcid: 0000-0003-2840-128X
   email: anastasia.wawilow@upb.de
+  matrix: "@anastasia:edirom.de"
   affiliation:
     - zenmem
     - nfdi
@@ -138,6 +152,7 @@
 - name: Mark Saccomano
   sortkey: Saccomano
   email: mark.saccomano@uni-paderborn.de
+  matrix: "@msaccomano:edirom.de"
   affiliation:
     - bith
     - kio
@@ -147,6 +162,7 @@
   sortkey: Seipelt
   orcid: 0000-0002-4250-6937 
   email: aseipelt@mail.uni-paderborn.de
+  matrix: "@aseipelt:edirom.de"
   affiliation:
     - bw
     - bruckner
@@ -155,6 +171,7 @@
   sortkey: Ferger
   orcid: 0000-0002-1382-2658
   email: anne.ferger@uni-paderborn.de
+  matrix: "@aferger:edirom.de"
   affiliation:
     - nfdi
   image: /assets/img/team_anne.jpg
@@ -162,6 +179,7 @@
   sortkey: Jettka
   orcid: 0000-0002-2375-2227
   email: daniel.jettka@uni-paderborn.de
+  matrix: "@dajettka:edirom.de"
   affiliation:
     - nfdi
     - edirom-online-reloaded
@@ -171,12 +189,14 @@
   email: salome.obert@uni-paderborn.de
   phone: +49 5231 975–853
   orcid: 0009-0004-1673-4305
+  matrix: "@sobert:edirom.de"
   affiliation:
     - wega
   image: /assets/img/team_salome.jpg
 - name: Hizkiel Mitiku Alemayehu
   sortkey: Alemayehu
   email: hizkiel.alemayehu@uni-paderborn.de
+  matrix: "@hizkiel:edirom.de"
   affiliation:
     - nfdi
     - edirom-online-reloaded
@@ -193,12 +213,14 @@
   sortkey: Ried
   email: info@dennisried.de
   orcid: 0000-0001-5545-2088
+  matrix: "@dried:edirom.de"
   affiliation:
     - henze
   image: /assets/img/team_dennis.jpg
 - name: Jan-Peter Voigt
   sortkey: Voigt
   email: jpv@beethovens-werkstatt.de
+  matrix: "@jan-peter:edirom.de"
   affiliation:
     - bw
   image: /assets/img/team_janpeter.jpeg
@@ -207,6 +229,7 @@
   phone: +49 228 98175-89
   email: saenger@beethovens-werkstatt.de
   orcid: 0009-0002-8649-543X
+  matrix: "@rsaenger:edirom.de"
   affiliation:
     - bw
   image: /assets/img/team_richard.jpg
@@ -215,6 +238,7 @@
   phone: +49 228 98175-69
   email: cox@beethovens-werkstatt.de
   orcid: 0009-0002-3252-0986
+  matrix: "@scox:edirom.de"
   affiliation:
     - bw
   image: /assets/img/team_susanne.jpg
@@ -222,6 +246,7 @@
   sortkey: Friedl
   email: dennis.friedl@uni-paderborn.de
   orcid: 0009-0000-4410-4627
+  matrix: "@dfriedl:edirom.de"
   affiliation:
     - korngold
   image: /assets/img/team_dfriedl.png
@@ -229,10 +254,12 @@
   sortkey: Jeske
   phone: +49 5231 975-662
   email: dunja.jeske@hfm-detmold.de
+  matrix: "@dunja.jeske=40hfm-detmold.de:edirom.de"
   image: /assets/img/team_dunja.jpg
 - name: Tobias Bachmann
   sortkey: Bachmann
   email: tobias.bachmann@uni-paderborn.de
+  matrix: "@tbachmann:edirom.de"
   orcid: 0009-0003-9952-7899
   image: /assets/img/team_tobias.jpg
   affiliation:
@@ -248,6 +275,7 @@
 - name: Anna Viktoria Katrin Plaksin
   sortkey: Plaksin
   email: anna.plaksin@uni-paderborn.de
+  matrix: "@aplaksin:edirom.de"
   image: assets/img/team_annaP.jpg
   affiliation:
     - kio
@@ -255,6 +283,7 @@
   sortkey: Rosendahl
   phone: +49 228 98175-89
   email: rosendahl@beethovens-werkstatt.de
+  matrix: "@lrosendahl:edirom.de"
   orcid: 0000-0002-4826-4553
   image: assets/img/team_lisa.jpg
   affiliation:
@@ -265,13 +294,15 @@
   sortkey: Reich
   email: s.reich@em.uni-frankfurt.de
   orcid: 0009-0007-8817-0299
+  matrix: "@diginaut:edirom.de"
   image: assets/img/team_silke.jpg
   affiliation:
     - korngold
 - name: Leonie Hofstetter
   sortkey: Hofstetter
   email: leonie.hofstetter@uni-paderborn.de
-  orcid: 0009-0001-0040-1838 
+  orcid: 0009-0001-0040-1838
+  matrix: "@lhofstetter:edirom.de"
   image: assets/img/team_leonie.png
   affiliation:
     - nfdi
@@ -279,6 +310,7 @@
   sortkey: Astheimer
   email: steffen.astheimer@uni-paderborn.de
   orcid: 0009-0004-5138-1314
+  matrix: "@astheims:edirom.de"
   phone: +49 5231–975676
   image: assets/img/team_steffen.png
   affiliation:
