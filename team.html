@@ -16,7 +16,7 @@ title: Team
                 <p class="card-text">
                     {% if member.email %}
                     <i class="vife_contact_icon fa fa-envelope"></i>
-                    <span>{{ member.email }}</span><br />
+                    <a href="mailto:{{ member.email }}">{{ member.email }}</a><br />
                     {% endif %}
                     {% if member.phone %}
                     <i class="vife_contact_icon fa fa-phone"></i>
