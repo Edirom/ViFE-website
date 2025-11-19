@@ -74,7 +74,6 @@
   sortkey: Grund
   email: vgrund@mail.uni-paderborn.de
   image: /assets/img/team_vera.png
-  phone: +49 5231 975-671
   matrix: "@vera.grund:academiccloud.de"
   affiliation:
     - tamudi
@@ -115,7 +114,6 @@
     - wega
     - bw
   image: /assets/img/team_ran.jpg
-  phone: +49 5231 975–669
 - name: Kristina Richts-Matthaei
   sortkey: Richts
   orcid: 0000-0001-8569-1995
@@ -126,7 +124,6 @@
     - hoftheater
     - nfdi
   image: /assets/img/team_kristina.jpg
-  phone: +49 5231 975–665
 - name: Andreas Münzmay
   sortkey: Münzmay
   orcid: 0000-0002-8373-4055
@@ -148,7 +145,6 @@
     - zenmem
     - nfdi
   image: /assets/img/team_anastasia.JPG
-  phone: +49 5231 975–665
 - name: Mark Saccomano
   sortkey: Saccomano
   email: mark.saccomano@uni-paderborn.de
@@ -157,7 +153,6 @@
     - bith
     - kio
   image: /assets/img/team_mark.jpg
-  phone: +49 5231 975–669
 - name: Agnes Seipelt
   sortkey: Seipelt
   orcid: 0000-0002-4250-6937 
@@ -205,7 +200,6 @@
 - name: Elena Minetti
   sortkey: Minetti
   email: elena.minetti@uni-paderborn.de
-  phone: +49 5231 975-855
   affiliation:
     - henze
   image: /assets/img/team_elenaM.jpg
