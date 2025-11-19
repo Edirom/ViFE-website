@@ -28,7 +28,7 @@
     - zenmem
     - bazga
   image: /assets/img/team_benjamin.jpg
-  phone: +49 69 798–22192
+  phone: +49 69 798-22192
 - name: Daniel Röwenstrunk
   sortkey: Röwenstrunk
   email: roewenstrunk@uni-paderborn.de
@@ -69,7 +69,7 @@
     - opera
     - dariah
   image: /assets/img/team_niko.jpg
-  phone: +49 721 854–501
+  phone: +49 721 854-501
 - name: Vera Grund
   sortkey: Grund
   email: vgrund@mail.uni-paderborn.de
@@ -95,7 +95,7 @@
     - zenmem
     - bw
   image: /assets/img/team_joachimV.jpg
-  phone: +49 5231 975–663
+  phone: +49 5231 975-663
 - name: Peter Stadler
   sortkey: Stadler
   email: stadler@edirom.de
@@ -106,7 +106,7 @@
     - wega
     - zenmem
   image: /assets/img/team_peter.jpg
-  phone: +49 5251 60–4777
+  phone: +49 5251 60-4777
 - name: Ran Mo
   sortkey: Mo
   email: mo@beethovens-werkstatt.de
@@ -135,7 +135,7 @@
     - nfdi
     - tamudi
   image: /assets/img/team_andreas.png
-  phone: +49 5231 975–672
+  phone: +49 5231 975-672
 - name: Anastasia Wawilow
   sortkey: Wawiliow
   orcid: 0000-0003-2840-128X
@@ -182,7 +182,7 @@
 - name: Salome Obert
   sortkey: Obert
   email: salome.obert@uni-paderborn.de
-  phone: +49 5231 975–853
+  phone: +49 5231 975-853
   orcid: 0009-0004-1673-4305
   matrix: "@sobert:edirom.de"
   affiliation:
@@ -305,7 +305,7 @@
   email: steffen.astheimer@uni-paderborn.de
   orcid: 0009-0004-5138-1314
   matrix: "@astheims:edirom.de"
-  phone: +49 5231–975676
+  phone: +49 5231 975-676
   image: assets/img/team_steffen.png
   affiliation:
     - wega
