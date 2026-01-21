@@ -45,6 +45,7 @@ jobs:
       - name: Log in to dhi.io
         uses: docker/login-action@v3
         with:
+          registry: dhi.io
           username: vifebot
           password: ${{ secrets.VIFEBOT_DOCKERHUB_TOKEN }}
 
