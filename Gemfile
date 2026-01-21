@@ -19,7 +19,7 @@ group :jekyll_plugins do
 end
 
 # added to make the Docker build work on MacOS
-gem "jekyll-sass-converter", "~> 2.0"
+gem "jekyll-sass-converter", "~> 3.1"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
