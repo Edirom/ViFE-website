@@ -34,7 +34,6 @@ Software and Frameworks used:
 * CSS Framework by [Bootstrap]
 * Webicons by [Font Awesome]
 * jQuery JavaScript library by [The OpenJS Foundation]
-* Calendar by [FullCalendar]
 * Publications by [BibBase]
 
 
@@ -48,5 +47,4 @@ This work is licensed under a [Creative Commons Attribution 4.0 Unported License
 [The OpenJS Foundation]: https://openjsf.org
 [Creative Commons Attribution 4.0 Unported License (CC BY 4.0)]: https://creativecommons.org/licenses/by/4.0/
 [Docker Hub]: https://hub.docker.com/r/edirom/vife-website/
-[FullCalendar]: https://fullcalendar.io
 [BibBase]: https://bibbase.org
