@@ -22,7 +22,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
     "@fullcalendar/bootstrap": "^5.10.1",
-    "@fullcalendar/core": "^5.10.1",
+    "@fullcalendar/core": "^6.1.20",
     "@fullcalendar/daygrid": "^5.10.1",
     "@fullcalendar/icalendar": "^5.10.1",
     "@fullcalendar/list": "^5.10.1",
