@@ -4,7 +4,11 @@
 ---
 
 @use "app";
-@use "bootstrap";
+@use "bootstrap" with (
+  $theme-colors: (
+    "primary": #337ab7,
+  )
+);
 @use "../node_modules/@fortawesome/fontawesome-free/scss/variables" with (
   $font-path:  "{{ '/assets/webfonts' | relative_url }}"
 );
