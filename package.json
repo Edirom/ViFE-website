@@ -1,6 +1,6 @@
 {
   "name": "vife-website",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Website of Virtueller Forschungsverbund Edirom",
   "main": "index.html",
   "scripts": {
@@ -21,8 +21,6 @@
   "homepage": "https://github.com/Edirom/ViFE-website#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.2.0",
-    "bootstrap": "^4.6.0",
-    "jquery": "^3.5.1",
-    "popper.js": "^1.16.1"
+    "bootstrap": "^4.6.0"
   }
 }
