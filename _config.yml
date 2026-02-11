@@ -60,8 +60,8 @@ github_username: Edirom
 
 sass:
   load_paths:
-    - _sass
     - node_modules/bootstrap/scss
+    - node_modules/@fortawesome/fontawesome-free/scss
   style: compressed
 
 copy_to_dest:
