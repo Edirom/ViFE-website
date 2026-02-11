@@ -1,10 +1,13 @@
 ---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
 ---
 
-$fa-font-path: "{{ '/assets/webfonts' | relative_url }}" !default;
-
-@import "main";
-@import "bootstrap";
-@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
-@import "../node_modules/@fortawesome/fontawesome-free/scss/brands";
-@import "../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@use "app";
+@use "bootstrap";
+@use "../node_modules/@fortawesome/fontawesome-free/scss/variables" with (
+  $font-path:  "{{ '/assets/webfonts' | relative_url }}"
+);
+@use "fontawesome";
+@use "brands" as fa-brands;
+@use "solid" as fa-solid;
