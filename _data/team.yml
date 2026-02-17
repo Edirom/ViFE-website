@@ -318,3 +318,11 @@
   image: assets/img/team_maxgreshake.jpg
   affiliation:
     - bw
+- name: Adrian Nachtwey
+  sortkey: Nachtwey
+  matrix: "@adrian:edirom.de"
+  image: assets/img/team_adrian.jpg
+  email: adrian.nachtwey@uni-paderborn.de
+  orcid: 0009-0000-1214-5547
+  affiliation:
+    - kio
