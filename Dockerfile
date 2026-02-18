@@ -1,3 +1,10 @@
+# Default base image is nginx:alpine
+# while a hardened image can be requested
+# by providing the e.g. BASE_IMAGE="dhi.io/nginx:1"
+# build argument
+ARG BASE_IMAGE="nginx:alpine"
+
+# Build stage
 FROM ruby:3 AS builder
 
 ENV WORK_DIR=/var/jekyllbuilder
@@ -21,7 +28,7 @@ RUN npm i && \
 #################
 # nginx
 #################
-FROM nginx:alpine
+FROM $BASE_IMAGE
 LABEL org.opencontainers.image.authors="Peter Stadler for the ViFE"
 LABEL org.opencontainers.image.source="https://github.com/Edirom/ViFE-website"
 
