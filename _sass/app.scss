@@ -1,4 +1,3 @@
-$primary: #337ab7;
 $headerBarHeight: 40px;
 $spacer: 1rem !default;
 
@@ -186,10 +185,12 @@ figure {
     &.matrix_icon {
       background-image: url('/assets/img/matrix-logo.svg');
     }
+    background-repeat: no-repeat;
     background-size: 16px 16px;
     width: 16px;
     height: 16px;
     margin-bottom: 3px;
+    margin-left: 2px;
     vertical-align: middle;
 }
 
