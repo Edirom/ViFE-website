@@ -4,7 +4,7 @@ nfdi:
   funder: BMBF
   start: 2020
   end: 2025
-  logo: https://nfdi4culture.de/typo3temp/assets/build/images/n4c-logo-black.4b9cb10d.svg
+  logo: /assets/img/nfdi4c_logo_signet.svg
 edirom:
   name: Edirom
   url: https://edirom.de/edirom-projekt/
