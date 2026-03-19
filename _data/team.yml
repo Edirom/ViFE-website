@@ -334,3 +334,11 @@
   orcid: 0000-0002-0219-5898
   affiliation:
     - primus
+- name: Frithjof Bömcke-Vollmer
+  sortkey: Boemcke-Vollmer
+  matrix: "@f.boemckevollmer:academiccloud.de" "@frithjof:edirom.de"
+  image: assets/img/team_frithjof.jpg
+  email: frithjof.boemcke.vollmer@uni-paderborn.de
+  orcid: 0000-0002-4302-0795
+  affiliation:
+    - performance-edition
