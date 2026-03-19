@@ -171,3 +171,9 @@ edirom-online-reloaded:
   funder: DFG
   start: 2024
   end: 2027
+primus:
+  name: PRIMUS
+  url: https://www.uni-paderborn.de/projekt/1522
+  funder: DFG
+  start: 2025
+  end: 2027
