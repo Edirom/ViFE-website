@@ -58,7 +58,20 @@ See in context: [annotation in work file](https://github.com/Edirom/Bargheer-Edi
 
 **Texts** - ...
 
-- Texts, aka TEI files
+The texts, which means the TEI files in the edition, were largely conformant with the latest Edirom Online version. However, one minor change was necessary in the encoding of the chapter structure in one file. It contained two div elements for chapter encoding with the same attribute n=“2“ which led to a problem in the TEI2HTML transformation in the Edirom Online. This was fixed by removing the second div element which was actually superfluous, and putting its contents into the first div element.
+
+```xml
+<!-- beginning of TEI file -->
+
+  <div n="2" type="chapter">
+    <!-- ... -->
+  </div>
+  <div n="2" type="chapter">
+    <!-- ... -->
+  </div>
+
+<!-- remaining of TEI file -->
+```
 
 
 **Configuration files** - There are several configuration files that may have to be updated to make the edition compatible with the latest Edirom release. This first is the prefs.xml file, which can for instance be used to set the start screen (startWindow) for an edition, and also other preferences.
@@ -101,7 +114,13 @@ See in repository: [CITATION.cff](https://github.com/Edirom/Bargheer-Edition/blo
 
 ### Images
 
-Correct paths to image server
+The images in the edition are stored on a dedicated digilib image server. Using the [Scaler servlet](https://robcast.github.io/digilib/scaler-api.html) of the image server, which supports several options for rendering the images, the graphic URLs in the TEI files were accordingly updated to point to the correct paths on the image server. In addition, the height attribute was removed from the graphic element in the TEI files (and moved to the dh parameter) to ensure proper rendering in the latest Edirom Online.
+
+```xml
+<figure place="inline">
+  <graphic url="https://bargheer.edirom.de/Scaler/images/Mitwirkende2.jpg?dh=400&amp;mo_fit"/>
+</figure>
+```
 
 ### Infrastructure/Deployment
 
