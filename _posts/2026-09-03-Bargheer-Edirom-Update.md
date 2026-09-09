@@ -56,9 +56,7 @@ See in context: [XQuery in the Edirom Online backend](https://github.com/Edirom/
 See in context: [annotation in work file](https://github.com/Edirom/Bargheer-Edition/blob/851b5ede7407a7e20629d194876127bca6badae7/works/edirom_work_2c574d8e-fbb7-44b6-bc73-f1b5715621e8.xml#L140-L149)
 
 
-**Texts** - ...
-
-The texts, which means the TEI files in the edition, were largely conformant with the latest Edirom Online version. However, one minor change was necessary in the encoding of the chapter structure in one file. It contained two div elements for chapter encoding with the same attribute n=“2“ which led to a problem in the TEI2HTML transformation in the Edirom Online. This was fixed by removing the second div element which was actually superfluous, and putting its contents into the first div element.
+**Texts** - The texts, which means the TEI files in the edition, were largely conformant with the latest Edirom Online version. However, one minor change was necessary in the encoding of the chapter structure in one file. It contained two div elements for chapter encoding with the same attribute n=“2“ which led to a problem in the TEI2HTML transformation in the Edirom Online. This was fixed by removing the second div element which was actually superfluous, and putting its contents into the first div element.
 
 ```xml
 <!-- beginning of TEI file -->
