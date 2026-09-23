@@ -342,3 +342,12 @@
   orcid: 0000-0002-4302-0795
   affiliation:
     - performance-edition
+- name: Katharina Bleier
+  sortkey: Bleier
+  email: katharina.bleier@uni-paderborn.de
+  orcid: 0000-0001-6156-1598
+  matrix: "@katbleier:edirom.de"
+  image: /assets/img/team_katharinableier.jpg
+  affiliation:
+    - henze
+  
